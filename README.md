@@ -5,7 +5,7 @@ Bioinformatyka Sekwencji Biologicznych 2
 
 | Lab | Data | Opis | Zadania |
 | :---: | --- | --- | :---: |
-| **01** | 03.03.2020 | Podstawy obsługi systemu Linux | lab01  |
+| **01** | 03.03.2020 | Podstawy obsługi systemu Linux | [lab01](./lab01.md)  |
 | **02**    | 10.03.2020 | NCBI E-Utilities, Dot plot | lab02 |
 | **03**    | 17.03.2020 | Programowanie dynamiczne | lab03 |
 | **04**    | 24.03.2020 | BLAST, profile sekwencji | lab04 |
