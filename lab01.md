@@ -139,8 +139,6 @@ A4K2U9  1433B_PONAB     246     Pongo abelii (Sumatran orangutan) (Pongo pygmaeu
 2. Użyj polecenia `wc` i odpowiedz, ile linii zawiera ten plik?
 3. Wyświetl 7 pierwszych linii tego pliku.
 4. Wyświetl 7 ostatnich linii tego pliku.
-5.* W jednym poleceniu wyświetl 7 pierwszych i ostatnich linii tego pliku.
-
 
 ## Zad. 8 (Przeszukiwanie zawartości plików tekstowych)
 
