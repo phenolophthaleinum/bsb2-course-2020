@@ -39,7 +39,7 @@ Do każdego z poniższych punktów należy podać polecenie Linuxa, które umoż
 
 ```
 lab01/
-└── text
+└── text/
     └── README.txt
 ```
 
@@ -63,7 +63,7 @@ lab01/
 
 ```
 lab01/
-└── text_backup
+└── text_backup/
     ├── README.md
     └── README.txt
 ```
@@ -91,7 +91,7 @@ lab01/
 ├── seq08.fasta
 ├── seq09.fasta
 ├── seq10.fasta
-├── text_backup
+├── text_backup/
 │   ├── README.md
 │   └── README.txt
 └── text_backup.tar.gz
@@ -111,7 +111,7 @@ lab01/
 ├── all.fasta
 ├── error.log
 ├── out.txt
-├── text_backup
+├── text_backup/
 │   ├── README.md
 │   └── README.txt
 └── text_backup.tar.gz
@@ -175,6 +175,7 @@ Plik `http://www.combio.pl/files/many.fasta` zawiera sekwencje w formacie FASTA 
 
 1. Ile sekwencji znajduje się w tym pliku?
 2. Podaj nazwy baz danych, z których pochodzą te sekwencje.
+   > Nazwy baz danych znajdują się między znakami `|` (np. `dbj`, `gb`).
 3. Ile sekwencji pochodzi z poszczególnych baz danych?
 4. Czy wśród rekordów z bazy RefSeq znajdują się jakieś białkowe rekordy?
    > Wskazówka: Co jest charakterystyczną cechą identyfikatorów białkowych bazy RefSeq?
