@@ -167,5 +167,5 @@ Podaj polecenie `efetch`, które wyświetli abstrakty trzech artykułów o ident
 ## Programowanie (dla chętnych)
 
 
-## Zad. 13
+### Zad. 13
 W pliku [vertebrates.txt](http://www.combio.pl/files/vertebrates.txt) znajdują się nazwy gatunkowe kilku kręgowców. Napisz skrypt, który dla każdego organizmu z pliku wyszuka (korzystając z E-Utilities) sekwencje białkowe genu TNRC6A z bazy RefSeq. Znalezione sekwencje w obrębie organizmu powinny zostać zapisane do pliku tekstowego w formacie FASTA. Na przykład, sekwencje białkowe TNRC6A dla organizmu *Mus musculus* powinny zostać zapisane w pliku `mus_musculus.fasta`. Uwzględnij w skrypcie sugestię NCBI, aby nie przekraczać trzech zapytań do bazy w ciągu 1 sekundy.
