@@ -1,4 +1,4 @@
-# bsb2-course-2019
+# bsb2-course-2020
 Bioinformatyka Sekwencji Biologicznych 2
 
 ## Plan ćwiczeń
