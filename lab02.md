@@ -78,11 +78,13 @@ Korzystając z poleceń `esearch` i `efetch` przeszukaj nukleotydową bazę i wy
 1. Ile sekwencji znaleziono?
 2. Podaj użyte polecenie.
 
-Kolejno modyfikuj polecenie przy użyciu potoków Linuxa, aby odpowiedzieć na następujące pytania:
 
-3. Na którym chromosomie znajdują się znalezione geny?
-4. Jaka jest łączna liczba egzonów tych transkryptów?
-5. Wyświetl linie rekordów zaczynające się od `LOCUS` i uszereguj je ze względu na malejącą długość sekwencji.
+### Zad. 7
+Przy użyciu potoków Linuxa zmodyfikuj polecenie z poprzedniego zadania, aby odpowiedzieć na następujące pytania:
+
+1. Na którym chromosomie znajdują się znalezione geny?
+2. Jaka jest łączna liczba egzonów tych transkryptów?
+3. Wyświetl linie rekordów zaczynające się od `LOCUS` i uszereguj je ze względu na malejącą długość sekwencji.
    
    ```
    LOCUS       NM_001351850            8526 bp    mRNA    linear   PRI 28-DEC-2017
@@ -105,7 +107,7 @@ Kolejno modyfikuj polecenie przy użyciu potoków Linuxa, aby odpowiedzieć na n
     ```
 
 
-### Zad. 7
+### Zad. 8
 Uruchom poniższe polecenie:
 
 ```bash
@@ -133,7 +135,7 @@ Do powyższego polecenia dołącz polecenie `xtract`, aby uzyskać poniższe wyn
 1519243019  NM_014494     8491  mRNA  linear  human 2020/02/28
 ```
 
-### Zad. 8
+### Zad. 9
 Przy pomocy narzędzi `esearch`, `efetch`, `xtract` i `sort` utwórz jedno polecenie, które wyszuka w bazie `gene` wszystkie geny o nazwie *BRCA2* u naczelnych, tak aby wyświetlić poniższą listę (tj. identyfikator, nazwa genu, organizm) uszeregowaną ze względu na nazwę organizmu.
 
 ```
@@ -146,26 +148,26 @@ Przy pomocy narzędzi `esearch`, `efetch`, `xtract` i `sort` utwórz jedno polec
 ...
 ```
 
-### Zad. 9
+### Zad. 10
 Utwórz polecenie `efetch` wyświetlające sekwencje FASTA o numerach dostępu: `NP_476567` i `NP_476565`.
 
 
-### Zad. 10
+### Zad. 11
 Wyświetl abstrakty artykułów bazy PubMed dotyczących schizofrenii i opublikowanych w ciągu ostatnich 30 dni. Podaj użyte polecenie. Ile artykułów znaleziono?
 
 > Wskazówka: Ograniczenie wyników ze względu na czas opublikowania umożliwi narzędzie [efilter](https://www.ncbi.nlm.nih.gov/books/NBK179288/#chapter6.Searching_and_Filtering).
 
 
-### Zad. 11
+### Zad. 12
 Korzystając z narzędzia [elink](https://www.ncbi.nlm.nih.gov/books/NBK179288/#chapter6.Writing_Commands_on_Multiple_Li) wyszukaj wszystkie sekwencje białkowe, o których mowa w artykułach o schizofrenii z ostatnich 60 dni. Podaj użyte polecenie oraz liczbę sekwencji.
 
 
-### Zad. 12
+### Zad. 13
 Podaj polecenie `efetch`, które wyświetli abstrakty trzech artykułów o identyfikatorach: `24102982`, `21171099`, `17150207`.
 
 
 ## Programowanie (dla chętnych)
 
 
-### Zad. 13
+### Zad. 14
 W pliku [vertebrates.txt](http://www.combio.pl/files/vertebrates.txt) znajdują się nazwy gatunkowe kilku kręgowców. Napisz skrypt, który dla każdego organizmu z pliku wyszuka (korzystając z E-Utilities) sekwencje białkowe genu TNRC6A z bazy RefSeq. Znalezione sekwencje w obrębie organizmu powinny zostać zapisane do pliku tekstowego w formacie FASTA. Na przykład, sekwencje białkowe TNRC6A dla organizmu *Mus musculus* powinny zostać zapisane w pliku `mus_musculus.fasta`. Uwzględnij w skrypcie sugestię NCBI, aby nie przekraczać trzech zapytań do bazy w ciągu 1 sekundy.
