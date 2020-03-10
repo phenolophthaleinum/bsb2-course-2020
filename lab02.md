@@ -66,7 +66,7 @@ efetch -format fasta
 
 
 ### Zad. 5
-Korzystając z poleceń `esearch` i `efetch` wyszukaj sekwencje białkowe w formacie FASTA, które mają w tytule wyraz `caspase` i pochodzą z *Bacillus subtilis*.
+Korzystając z poleceń `esearch` i `efetch` wyszukaj sekwencje białkowe w formacie FASTA, które mają w tytule rekordu wyraz `caspase` i pochodzą z *Bacillus subtilis*.
 
 1. Ile białek znaleziono?
 2. Podaj użyte polecenie.
