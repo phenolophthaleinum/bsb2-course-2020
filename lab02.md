@@ -163,10 +163,11 @@ Korzystając z narzędzia [elink](https://www.ncbi.nlm.nih.gov/books/NBK179288/#
 
 
 ### Zad. 13
-Podaj polecenie `efetch`, które wyświetli abstrakty trzech artykułów o identyfikatorach: `24102982`, `21171099`, `17150207`.
+Podaj polecenie `efetch`, które wyświetli abstrakty trzech artykułów o identyfikatorach PubMed: `24102982`, `21171099`, `17150207`.
 
 
 ## Programowanie (dla chętnych)
 
 ### Zad. 14
-W pliku [vertebrates.txt](http://www.combio.pl/files/vertebrates.txt) znajdują się nazwy gatunkowe kilku kręgowców. Napisz skrypt, który dla każdego organizmu z pliku wyszuka (korzystając z Entrez Direct) sekwencje białkowe genu TNRC6A z bazy RefSeq. Znalezione sekwencje w obrębie organizmu powinny zostać zapisane do pliku tekstowego w formacie FASTA. Na przykład, sekwencje białkowe TNRC6A dla organizmu *Mus musculus* powinny zostać zapisane w pliku `mus_musculus.fasta`. Uwzględnij w skrypcie sugestię NCBI, aby nie przekraczać trzech zapytań do bazy w ciągu 1 sekundy.
+W pliku [vertebrates.txt](http://www.combio.pl/files/vertebrates.txt) znajdują się nazwy gatunkowe kilku kręgowców. Napisz skrypt, który dla każdego organizmu z pliku wyszuka (korzystając z Entrez Direct) sekwencje białkowe genu TNRC6A z bazy RefSeq. Znalezione sekwencje w obrębie organizmu powinny zostać zapisane do pliku tekstowego w formacie FASTA. 
+> Na przykład, sekwencje białkowe TNRC6A dla organizmu *Mus musculus* powinny zostać zapisane w pliku `mus_musculus.fasta`. Uwzględnij w skrypcie sugestię NCBI, aby nie przekraczać trzech zapytań do bazy w ciągu 1 sekundy.
