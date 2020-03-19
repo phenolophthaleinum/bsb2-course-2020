@@ -1,7 +1,7 @@
 ## Dot plot
 
 ### Zad. 1
-> Informacje na temat techniki dot-plot znajdują się w [prezentacji](http://combio.pl/courses/bioseq.amupie/?lecture=6) (slajdy: 39-68).
+**Informacje na temat techniki dot-plot znajdują się w [prezentacji](http://combio.pl/courses/bioseq.amupie/?lecture=6) (slajdy: 39-68).**
 
 Korzystając z techniki dot-plot porównaj sześć par sekwencji DNA w pliku [dotplot.xlsx](http://www.combio.pl/files/dotplot.xlsx). Zinterpretuj każdy z sześciu wyników (a-f) pod kątem: zgodności/niezgodności sekwencji, insercji oraz sekwencji powtórzonych i palindromowych. Wypełniony arkusz dołącz do sprawozdania.
 
@@ -60,6 +60,7 @@ Odpowiedz na pytania:
    * niedopasowania `A.I`?
 3. Ile wynosi procent *podobieństwa* przyrównywanych sekwencji?
    > **Procent podobieństwa** sekwencji aminokwasowych jest zawsze większy lub równy od procentu identyczności. Podobieństwo, oprócz identycznych reszt aminokwasowych, uwzględnia również substytucje aminokwasów podobnych (tj. takie substytucje aminokwasów, które są dodatnio punktowane w użytej macierzy substytucji, w tym przypadku macierzy BLOSUM62).
+
    > W przypadku sekwencji nukleotydowych podobieństwo jest tym samym co identyczność.
 4. Podaj wartość *score* całego przyrównania przy zastosowaniu macierzy BLOSUM62 i kary za przerwę: `-10`.
 
