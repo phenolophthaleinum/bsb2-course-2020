@@ -70,7 +70,7 @@ Odpowiedz na pytania:
 4. Podaj wartość *score* całego przyrównania przy zastosowaniu macierzy BLOSUM62 i kary za przerwę: `-10`.
 
 
-## Programowanie dynamiczne - algorytm
+## Programowanie dynamiczne
 
 
 ### Zad. 4 - Przyrównanie globalne
