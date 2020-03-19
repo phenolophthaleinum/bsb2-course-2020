@@ -159,11 +159,10 @@ Organizm 1 | Organizm 2
 *Escherichia coli* | człowiek
 
 1. Które przyrównanie odznacza się wyższym poziomem podobieństwa sekwencji i ile wynosi?
-2. Czy wynik przyrównań jest zgodny z Twoimi oczekiwaniami na temat mutacji sekwencji?
-3. Podaj kilkuaminokwasowy fragment sekwencji najbardziej zachowany w trzech analizowanych sekwencjach.
-    * Jaka może być przyczyna zachowania tego fragmentu?
+2. Podaj kilkuaminokwasowy fragment sekwencji najbardziej zachowany w trzech analizowanych sekwencjach.
+    * Jaka może być przyczyna zachowania tego fragmentu sekwencji?
     > Wskzówka: Acylfosfataza jest enzymem. Jak nazywa się region, który bezpośrednio wiąże się i oddziałuje z substratem oraz zawiera kluczowe do przebiegu reakcji reszty aminokwasowe, 
-4. Jaka macierz substytucji aminokwasowych została użyta w tych przyrównaniach?
+3. Jaka macierz substytucji aminokwasowych została użyta w tych przyrównaniach?
 
 
 ## Wpływ parametrów na przyrównanie sekwencji
@@ -204,17 +203,26 @@ QDGAISTDAEGKEEEGESPLDSLAETFWETTKWTDLFDNKVLTFAYKHALVNKMYGRGLK
 FATKLVEEKPTKENWKNCIQLMKLLGWTHCASFTENWLPIMYPPDYCVF
 ```
 
-1. Ponownie przyrównaj te sekwencje programem water, tym razem zmniejszając karę za otwarcie przerwy = `1`. 
+1. Ponownie przyrównaj te sekwencje programem *water*, tym razem zmniejszając karę za otwarcie przerwy = `1`. 
    * W jaki sposób zmniejszenie kar za otwarcie przerw wpłynęło na to dopasowanie?
 2. Wykonaj przyrównanie jak w poprzednim punkcie zwiększając kary za stosowanie przerw: otwarcie przerwy = `25`, wydłużenie przerwy = `5`.
    * W jaki sposób zwiększenie kar za stosowanie przerw wpłynęło na to dopasowanie?
 3. Jak nazywa się model karania za przerwy przyjmujący dwa parametry: otwarcie i wydłużenie przerwy?
-   > Wyróżniamy trzy podstawowe modele kary za przerwę: stały (*Constant*), liniowy (*Linear*) i afiniczny (*Affine*) [(Wikipedia)[https://en.wikipedia.org/wiki/Gap_penalty#Types]].
+   > Wyróżniamy trzy podstawowe modele kary za przerwę: stały (*Constant*), liniowy (*Linear*) i afiniczny (*Affine*) [[Wikipedia](https://en.wikipedia.org/wiki/Gap_penalty#Types)].
 4. Jak nazywa się model karania za przerwy, który używałe/aś w zadaniach 2-5?
 
 
-### Zad. 9 - Macierze substytucji
-Z bazy UniProt wyszukaj sekwencje aminokwasowe globin `CTT-Z` i `CTT-VIIA` z *Chironomus thummi thummi*. Użyj programu **needle** i wykonaj przyrównanie sekwencji stosują macierze substytucji: `EBLOSUM30` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM30)), `EBLOSUM62` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM62)), `EBLOSUM90` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM30)). Zapisz wynik każdego dopasowania. Macierz substytucji ma wpływ na wynik przyrównania (na wszystkie wartości przyrównania: punktacja, identyczność, podobieństwo, długość oraz liczba przerw).
+### Zad. 9 - Kara za stosowanie przerwy na początku i końcu sekwencji
+Otwórz program *needle* w dwóch kartach przeglądarki internetowej. W jednej karcie wykonaj przyrównanie sekwencji z poprzedniego zadania. W drugiej karcie wykonaj przyrównanie tych samych sekwencji wybierając w ustawieniach (*More Options*) opcję `END GAP PENALTY` jako `True`.
+
+1. Na czym polega różnica między dwoma otrzymanymi przyrównaniami?
+2. Które z przyrównań nazwał(a)byś *semi-globalnym*?
+
+
+### Zad. 10 - Macierze substytucji
+> *Macierz substytucji ma wpływ na wynik przyrównania (na wszystkie wartości przyrównania: punktacja, identyczność, podobieństwo, długość oraz liczba przerw). Przeczytaj krótki artykuł: [Where did the BLOSUM62 alignment score matrix come from?](http://profs.scienze.univr.it/~liptak/ALBioinfo/2011_2012/files/nbt0804-1035.pdf)*
+
+Z bazy UniProt wyszukaj sekwencje aminokwasowe globin `CTT-Z` i `CTT-VIIA` z *Chironomus thummi thummi*. Użyj programu **needle** i wykonaj przyrównanie sekwencji stosują macierze substytucji: `EBLOSUM30` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM30)), `EBLOSUM62` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM62)), `EBLOSUM90` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM30)). Zapisz wynik każdego dopasowania. 
 
 Odpowiedz na pytania:
 
