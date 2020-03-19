@@ -168,7 +168,7 @@ Organizm 1 | Organizm 2
 ## Wpływ parametrów na przyrównanie sekwencji
 
 
-### Zad. 8 - Kara za stosowanie przerw
+### Zad. 8 - Wpływ kary za stosowanie przerw
 Poniżej znajdują się dwie sekwencje proteazy serynowych. Pierwsza sekwencja jest termostabilną proteazą pochodzącą z *Bacillus lentus*. Druga sekwencja jest peptydazą człowieka (tripeptydylo-peptydaza). Przyrównaj obie sekwencje programem *Water*.
 
 ```
@@ -212,14 +212,14 @@ FATKLVEEKPTKENWKNCIQLMKLLGWTHCASFTENWLPIMYPPDYCVF
 4. Jak nazywa się model karania za przerwy, który używałe/aś w zadaniach 2-5?
 
 
-### Zad. 9 - Kara za stosowanie przerwy na początku i końcu sekwencji
+### Zad. 9 - Wpływ kary za stosowanie przerwy na początku i końcu sekwencji
 Otwórz program *needle* w dwóch kartach przeglądarki internetowej. W jednej karcie wykonaj przyrównanie sekwencji z poprzedniego zadania. W drugiej karcie wykonaj przyrównanie tych samych sekwencji wybierając w ustawieniach (*More Options*) opcję `END GAP PENALTY` jako `True`.
 
 1. Na czym polega różnica między dwoma otrzymanymi przyrównaniami?
 2. Które z przyrównań nazwał(a)byś *semi-globalnym*?
 
 
-### Zad. 10 - Macierze substytucji
+### Zad. 10 - Wpływ macierzy substytucji
 > *Macierz substytucji ma wpływ na wynik przyrównania (na wszystkie wartości przyrównania: punktacja, identyczność, podobieństwo, długość oraz liczba przerw). Przeczytaj krótki artykuł: [Where did the BLOSUM62 alignment score matrix come from?](http://profs.scienze.univr.it/~liptak/ALBioinfo/2011_2012/files/nbt0804-1035.pdf)*
 
 Z bazy UniProt wyszukaj sekwencje aminokwasowe globin `CTT-Z` i `CTT-VIIA` z *Chironomus thummi thummi*. Użyj programu **needle** i wykonaj przyrównanie sekwencji stosują macierze substytucji: `EBLOSUM30` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM30)), `EBLOSUM62` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM62)), `EBLOSUM90` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM30)). Zapisz wynik każdego dopasowania. 
