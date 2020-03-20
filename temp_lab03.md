@@ -74,7 +74,7 @@ Odpowiedz na pytania:
 
 
 ### Zad. 4 - Przyrównanie globalne
-> **Zapoznaj się z algorytmem Needlemana-Wunscha służącym do globalnego przyrównania dwóch sekwencji: [YouTube](https://www.youtube.com/watch?v=BYdTqq8AGgc) (5min18sek).**
+> **Zapoznaj się z algorytmem Needlemana-Wunscha służącym do globalnego przyrównania dwóch sekwencji: [YouTube](https://www.youtube.com/watch?v=BYdTqq8AGgc) [5min18sek].**
 
 Wykonaj na kartce przyrównanie globalne dwóch sekwencji DNA, `ATG` i `GGAATGG`, przy pomocy **algorytmu Needlemana-Wunscha**. 
 
@@ -88,7 +88,7 @@ W odpowiedzi podaj uzyskane dopasowania oraz wartość ich punktacji (*score*).
 
 
 ### Zad. 5 - Przyrównanie lokalne
-> **Zapoznaj się z algorytmem Smitha-Watermana służącym do lokalnego przyrównania dwóch sekwencji: [YouTube](https://www.youtube.com/watch?v=F1YId_z4pc8) (2min18sec)**
+> **Zapoznaj się z algorytmem Smitha-Watermana służącym do lokalnego przyrównania dwóch sekwencji: [YouTube](https://www.youtube.com/watch?v=F1YId_z4pc8) [2min18sec]**
 
 Wykonaj przyrównanie lokalne sekwencji z poprzedniego zadania (ten sam system punktacji) przy pomocy **algorytmu Smitha-Watermana**. W odpowiedzi podaj uzyskane dopasowanie oraz wartość jego punktacji.
 
