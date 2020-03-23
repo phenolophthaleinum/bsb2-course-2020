@@ -1,7 +1,7 @@
 ## Dot plot
 
 ### Zad. 1
-> **Zapoznaj się z techniką dot-plot w oparciu o [naszą prezentacji](http://combio.pl/courses/bioseq.amupie/?lecture=6) (slajdy: 39-68) [ok. 10 min].**
+> **Przypomnij sobie technikę porównywania sekwencji dot-plot w oparciu o [naszą prezentację](http://combio.pl/courses/bioseq.amupie/?lecture=6) (slajdy: 39-68) [ok. 10 min].**
 
 Korzystając z techniki dot-plot porównaj sześć par sekwencji DNA w pliku [dotplot.xlsx](http://www.combio.pl/files/dotplot.xlsx). Zinterpretuj każdy z sześciu otrzymanych wykresów dot-plot (a-f) pod kątem: 
 * zgodności/niezgodności sekwencji,
@@ -70,11 +70,11 @@ Odpowiedz na pytania:
 4. Podaj wartość *score* całego przyrównania przy zastosowaniu macierzy BLOSUM62 i kary za przerwę: `-10`.
 
 
-## Programowanie dynamiczne
+## Programowanie dynamiczne (materiały z ostatniego wykładu)
 
 
 ### Zad. 4 - Przyrównanie globalne
-> **Zapoznaj się z algorytmem Needlemana-Wunscha służącym do globalnego przyrównania dwóch sekwencji: [YouTube](https://www.youtube.com/watch?v=BYdTqq8AGgc) [5min18sek].**
+> **Przypomnij sobie jak działa algorytm Needlemana-Wunscha służący do globalnego przyrównania dwóch sekwencji: [YouTube](https://youtu.be/BYdTqq8AGgc) [5min18sek].**
 
 Wykonaj na kartce przyrównanie globalne dwóch sekwencji DNA, `ATG` i `GGAATGG`, przy pomocy **algorytmu Needlemana-Wunscha**. 
 
@@ -88,7 +88,7 @@ W odpowiedzi podaj uzyskane dopasowania oraz wartość ich punktacji (*score*).
 
 
 ### Zad. 5 - Przyrównanie lokalne
-> **Zapoznaj się z algorytmem Smitha-Watermana służącym do lokalnego przyrównania dwóch sekwencji: [YouTube](https://www.youtube.com/watch?v=F1YId_z4pc8) [2min18sec]**
+> **Przypomnij sobie jak działasię algorytm Smitha-Watermana służący do lokalnego przyrównania dwóch sekwencji: [YouTube](https://youtu.be/F1YId_z4pc8) [2min18sec]**
 
 Wykonaj przyrównanie lokalne sekwencji z poprzedniego zadania (ten sam system punktacji) przy pomocy **algorytmu Smitha-Watermana**. W odpowiedzi podaj uzyskane dopasowanie oraz wartość jego punktacji.
 
