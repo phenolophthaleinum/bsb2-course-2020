@@ -220,7 +220,7 @@ Otwórz program *needle* w dwóch kartach przeglądarki internetowej. W jednej k
 
 
 ### Zad. 10 - Wpływ macierzy substytucji
-> *Macierz substytucji ma wpływ na wynik przyrównania (na wszystkie wartości przyrównania: punktacja, identyczność, podobieństwo, długość oraz liczba przerw). Przeczytaj krótki artykuł: [Where did the BLOSUM62 alignment score matrix come from?](http://profs.scienze.univr.it/~liptak/ALBioinfo/2011_2012/files/nbt0804-1035.pdf)*
+> **Zapoznaj się z podstawowymi informacjami na temat macierzy substytucji: [YouTube](https://youtu.be/PdyARRNwi7I) [od 50’ do 57’ + od 1h09’ do 1h15’] [Slajdy z wykładu](http://combio.pl/courses/bioseq.amupie/?lecture=7).**
 
 Z bazy UniProt wyszukaj sekwencje aminokwasowe globin `CTT-Z` i `CTT-VIIA` z *Chironomus thummi thummi*. Użyj programu **needle** i wykonaj przyrównanie sekwencji stosują macierze substytucji: `EBLOSUM30` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM30)), `EBLOSUM62` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM62)), `EBLOSUM90` ([macierz](ftp://ftp.ncbi.nlm.nih.gov/blast/matrices/BLOSUM30)). Zapisz wynik każdego dopasowania. 
 
