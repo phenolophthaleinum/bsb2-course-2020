@@ -1,5 +1,5 @@
 ## BLAST
-Zapoznaj się z algorytmem BLAST:
+Zapoznaj się na YouTube z działaniem algorytmu BLAST [~42min]:
 1. [BLAST - introduction](https://youtu.be/8A-msg23u0w) [6min26sek]
 2. [BLAST - seed and extend](https://youtu.be/kAAme1fBanc) [2min11sek]
 3. [BLAST - scoring alignments](https://youtu.be/2V9HNxbWUMg) [9min39sek]
