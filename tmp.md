@@ -20,7 +20,7 @@ TGCAATGTCCCTTAGACACCTGCCTTGGGCCTGGCCTGCTGCTCTGCCCTGGCAACCAATAAACCCCTTG
 AATGAG
 ```
 
-Ze strony serwisu NCBI otwórz stronę programu `BLAST`. Wybierz program `Nucleotide BLAST`. W formularzu, w polu `Enter Query Sequence` umieść powyższą sekwencje w formacie FASTA. 
+Ze strony [serwisu NCBI](https://www.ncbi.nlm.nih.gov) otwórz stronę programu `BLAST`. Wybierz program `Nucleotide BLAST`. W formularzu, w polu `Enter Query Sequence` umieść powyższą sekwencje w formacie FASTA. 
 
 Użyj następujących ustawień:
 
@@ -39,7 +39,8 @@ Z listy otrzymanych trafień (panel *Descriptions*) zwróć uwagę na sekwencję
    > Przeczytaj: [NCBI](https://www.ncbi.nlm.nih.gov/Web/Newsltr/V15N2/BLView.html).
 4. Ile wynosi procent identyczności między sekwencją zapytania a `XM_004627084.1`?
 5. Ile wynosi wartość `Query cover`?
-   * O czym informuje ten parametr [NCBI](https://www.ncbi.nlm.nih.gov/Web/Newsltr/V15N2/BLView.html)?
+   * O czym informuje ten parametr?
+   > Przeczytaj: [NCBI](https://www.ncbi.nlm.nih.gov/Web/Newsltr/V15N2/BLView.html)
 6. Ile wynosi wartość `E-value`?
    * O czym informuje ten parametr?
    > Obejrzyj: [NCBI YouTube](https://youtu.be/nO0wJgZRZJs) (2min33sec) i [NCBI YouTube](https://youtu.be/Z7ek7UoP7Bg) (3min)
@@ -76,12 +77,12 @@ NNASSGLLQAVHEDLNGSLDHIDSNGNSSPGCSPQPHIHSIHVKEEPVIAEDEDCPMSLVTTANHSPELE
 DDREIEEEPLSEDLE
 ```
 
-Użyj serwisu [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) (`Protein BLAST`) w celu przeszukania bazy danych RefSeq, ograniczając wyszukiwanie do sekwencji zwierząt (*Metazoa*) i wykluczając z nich sekwencje pochodzące z naczelnych (*Primates*).
+Użyj serwisu [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) (`Protein BLAST`) w celu przeszukania bazy danych RefSeq, ograniczając wyszukiwanie do sekwencji zwierząt (*Metazoa*) i wykluczając z nich sekwencje pochodzące z naczelnych (*Primates*).
 
 Z listy otrzymanych trafień wybierz jedną sekwencję, która najbardziej odpowiada sekwencji *FOXP2*.
 
 1. Z jakiego organizmu pochodzi ta sekwencja?
-2. Ile wynosi E-value tego dopasowania?
+2. Ile wynosi `E-value` tego dopasowania?
 3. Podaj procent identyczności i podobieństwa tego dopasowania.
 4. Ile przerw znajduje się w tym dopasowaniu?
 
@@ -91,7 +92,7 @@ Skorzystaj z zakładki `Taxonomy`.
 
 
 ## Lokalny program NCBI BLAST
-> **Zainstaluj program BLAST na swoim komputerze. Program BLAST działa na systemach Windows, Linux i MacOS ([pobierz](ftp://ftp.ncbi.nih.gov/blast/executables/blast+/LATEST)).**
+> **Zainstaluj program BLAST na swoim komputerze. Program BLAST działa na systemach Windows, Linux i MacOS ([Instalacja programu](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)).**
 
 
 ### Zad. 3
@@ -117,7 +118,7 @@ blastn -query mito_genes.fasta -db mito_genomes.fasta -out results.txt      # Za
 2. Czy sekwencja tego genu jest identyczna we wszystkich genomach?
 3. Sprawdź jakie parametry może przyjmować program blastp (`blastn –help`).
    * Wykonaj ponowne przeszukiwanie, tym razem wyświetlając wyniki w formie tabeli (format tabularny z komentarzami).
-   * Podaj numery kolumn, w których znajdują się E-value i Score.
+   * Podaj numery kolumn, w których znajdują się `E-value` i `score`.
 4. Podaj pozycję startu i końca genu *tRNA-Pro* w sekwencji szympansa.
 5. Zmodyfikuj poprzednie polecenie, aby wyświetlić wyniki w formacie tabularnym bez komentarzy.
 6. Zmodyfikuj poprzednie polecenie zmieniając wartość parametru `task` z `megablast` na `blastn`.
@@ -129,7 +130,7 @@ blastn -query mito_genes.fasta -db mito_genomes.fasta -out results.txt      # Za
 
 
 ### Zad. 4
-W pliku [yeast_query.fasta](./data/yeast_query.fasta) znajduje się 10 sekwencji CDS pochodzących z drożdży piekarniczych (*Saccharomyces cerevisiae*), z kolei w pliku [spombe.fasta.tar.gz](./data/spombe.fasta.tar.gz) znajdują się wszystkie sekwencje CDS drożdży *Schizosaccharomyces pombe*.
+W pliku [yeast_query.fasta](./data/yeast_query.fasta) znajduje się 10 sekwencji CDS pochodzących z drożdży piekarniczych (*Saccharomyces cerevisiae*), z kolei w pliku [spombe.fasta.tar.gz](./data/spombe.fasta.zip) znajdują się wszystkie sekwencje CDS drożdży *Schizosaccharomyces pombe*.
 
 Skonstruuj polecenie programu BLAST, aby dla każdego z 10 genów w wynikach pojawiał się tylko jedno - najwyżej punktowane - trafienie, a format wyniku ograniczony był do następujących pól: identyfikator sekwencji zapytania i sekwencji z bazy danych, identyczność, punktacja, E-value.
 
