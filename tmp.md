@@ -152,7 +152,7 @@ Podaj użyte polecenie i wklej do sprawozdania uzyskany wynik.
 ### Zad. 5
 > Zapoznaj się z budowaniem profili sekwencji: [YouTube](https://youtu.be/419r3r87nAk) [6min10sek].
 
-W oparciu o poniższe przyrównanie sekwencji utwórz w tabeli profil, który będzie przedstawiał, ile razy dany aminokwas występuje w danej pozycji (kolumnie) dopasowania.
+W oparciu o poniższe przyrównanie sekwencji utwórz w tabeli profil, który będzie przedstawiał częstość danego aminokwas w danej pozycji (kolumnie) dopasowania.
 
 ```
 VDFWAE
