@@ -29,6 +29,7 @@ Użyj następujących ustawień:
 * Uruchom przeszukiwanie BLAST.
 
 #### Odczytywanie wyników
+> **Zapoznaj się z elementami interfejsu wyświetlania wyników programu blast na serwerze NCBI: https://youtu.be/mKC0xptQ_AY).**
 
 Z listy otrzymanych trafień (panel *Descriptions*) zwróć uwagę na sekwencję, która uzyskała najwyższą wartość punktacji (`Max score`).
 
@@ -374,7 +375,7 @@ Wróć do strony BLAST i wykonaj ponownie przeszukiwanie ograniczając wyszukiwa
 
 2. Ile istotnych statystycznie wyników zostało znalezionych?
    > *Wskazówka*: zaznacz wszystkie istotne statystycznie wyniki poprzez Select: All w sekcji `Sequences producing significant alignments with E-value BETTER than threshold`
-3. Czy wśród istotnych statystycznie wyników znajduja się wyniki pochodzące z bazy PDB?
+3. Czy wśród istotnych statystycznie wyników znajdują się wyniki pochodzące z bazy PDB?
    > *Wskazówka*: szukaj identyfikatora bazy PDB w kolumnie `Accession`. Identyfikator składa się z min. 4 znaków, w których pierwszy jest cyfrą np. `1XYZ_A`
 
 #### 6.3. Tworzenie i zapisanie profilu PSSM
@@ -410,10 +411,10 @@ Wykonaj nowe przeszukiwanie PSI-BLAST w bazie PDB z wykorzystaniem nowo zapisane
 14. Podaj identyfikator PDB i wartość E-value najlepszego wyniku przeszukiwania.
 15. Podaj wartości `Query coverage` oraz procent identyczności i podobieństwa dla najlepszego wyniku przeszukiwania.
 
-#### 6.6. Przyrównanie sekwencji zapytania i sekwencj i z bazy danych
+#### 6.6. Przyrównanie sekwencji zapytania i sekwencji i z bazy danych
 Z wyników BLAST pobierz w formacie FASTA sekwencję najbardziej odpowiadającą sekwencji zapytania. Korzystając z narzędzi poznanych na poprzednich zajęciach wykonaj globalne przyrównanie pobranej sekwencji i sekwencji zapytania.
 
-16. Podaj procent identyczności i podobieństwa uzyskanego dopasoewania.
+16. Podaj procent identyczności i podobieństwa uzyskanego dopasowania.
 17. Podaj najdłuższy region o nieprzerwanej stuprocentowej identyczności.
 
 
@@ -428,7 +429,7 @@ Zmodyfikuj skrypt, aby zamiast zliczeń przedstawiał częstości reszty w danej
 ### Zad. 9
 Zmodyfikuj skrypt, aby zamiast częstości danej reszty w danej pozycji obliczał logarytm ilorazu szans. Logarytm ilorazu szans to logarytm ze stosunku częstości występowania danej reszty w danej kolumnie przez ogólną częstość występowania danego aminokwasu.
 
-> Wskazówka: Ponieważ logarytm w zerze nie jest określony, powszechną parktyką jest dodanie niewielkiej stałej wartości liczbowej (np. `0.001`) do wszystkich obliczanych częstości.
+> Wskazówka: Ponieważ logarytm w zerze nie jest określony, powszechną praktyką jest dodanie niewielkiej stałej wartości liczbowej (np. `0.001`) do wszystkich obliczanych częstości.
 
 ```python
 # General amino-acid frequencies
