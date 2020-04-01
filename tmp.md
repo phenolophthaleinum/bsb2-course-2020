@@ -93,7 +93,7 @@ Które drzewa są ze sobą równoważne?
 
 
 ### Zad. 7
-> **Zapoznaj się na YouTube z tworzeniem drzewa filogentycznego: [Oxford Academic](https://youtu.be/09eD4A_HxVQ) [8min50sek]**
+> **Zapoznaj się na YouTube z tworzeniem drzewa filogentycznego za pomocą metody średnich połączeń (UPGMA): [Oxford Academic](https://youtu.be/09eD4A_HxVQ) [8min50sek]**
 
 Poniższa tabela przedstawia cztery aminokwasy wśród trzech gatunków.
 
