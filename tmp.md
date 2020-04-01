@@ -3,12 +3,11 @@
 > **Zapoznaj się na YouTube z zasadą działania algorytmów służących do przyrównywania wielu sekwencji: [Multiple sequence alignment](https://youtu.be/g0vTcC7kOcA) [50min].**
 
 ### Zad. 1
-> **Zapoznaj się na YouTube z programem [Clustal Omega](https://youtu.be/H07g6X-RzRo) [3min].**
-
 W pliku [ube.fasta](./data/ube.fasta) znajdują się sekwencje białkowe aktywnego enzymu koniugującego ubikwitynę pochodzące z wielu organizmów. Korzystając z programu ClustalOmega (<a href="http://www.ebi.ac.uk/Tools/msa/">http://www.ebi.ac.uk/Tools/msa/</a>) wykonaj ich dopasowanie.
+> Obsługa programu Clustal Omega: [YouTube](https://youtu.be/H07g6X-RzRo) [3min].
 
 1. Co oznaczają gwiazdki (`*`), dwukropki (`:`) i kropki (`.`) w otrzymanym dopasowaniu?
-   > Przeczytaj: [WikiPedia](https://en.wikipedia.org/wiki/Clustal#Input/Output).
+   > Przeczytaj: [Wikipedia](https://en.wikipedia.org/wiki/Clustal#Input/Output).
 2. Wypisz aminokwasy, które są całkowicie zachowane u wszystkich organizmów.
 3. Jaka może być przyczyna zachowania tych aminokwasów we wszystkich sekwencjach?
 4. Podaj procent identyczności sekwencji enzymu drożdżowego `UBC6_YEAST` (`P33296)` i sekwencji enzymu królika `UB2R2_RABIT` (`Q29503`)?
@@ -21,7 +20,7 @@ W bazie RefSeq istnieją dwa białka z drożdży o numerach dostępu: `NP_588162
 
 
 ### Zad. 2
-W pliku [myoglobins.fasta](./data/myoglobins.fasta) znajdują się sekwencje białkowe mioglobiny z 14 gatunków kręgowców. Wykonaj dopasowanie tych sekwencji przy pomocy programów: ClustalOmega, T-COFFEE (<a href="http://tcoffee.crg.cat/apps/tcoffee/do:regular">http://tcoffee.crg.cat/apps/tcoffee/do:regular</a>) i MAFFT (<a href="https://mafft.cbrc.jp/alignment/server/">https://mafft.cbrc.jp/alignment/server/</a>). Umieść wyniki w sprawozdaniu. 
+W pliku [myoglobins.fasta](./data/myoglobins.fasta) znajdują się sekwencje białkowe mioglobiny z 14 gatunków kręgowców. Wykonaj dopasowanie tych sekwencji przy pomocy programów: [ClustalOmega](http://www.ebi.ac.uk/Tools/msa/),  (<a href="http://tcoffee.crg.cat/apps/tcoffee/do:regular">T-COFFEE</a> i <a href="https://mafft.cbrc.jp/alignment/server/">MAFFT</a>. Umieść wyniki w sprawozdaniu. 
 
 1. Podaj przykładowy fragment sekwencji, dla którego programy zwracają różne dopasowania.
 2. Podaj najdłuższy region o nieprzerwanej stuprocentowej identyczności.
