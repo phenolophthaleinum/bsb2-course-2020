@@ -169,7 +169,7 @@ Sekwencje z poprzedniego zadania należą do żyjących gatunków niedźwiedzi. 
 2. Czy dołączenie niedźwiedzia jaskiniowego zmieniło układ pozostałych taksonów na drzewie?
 
 
-### Zad. 9
+### Zad. 9 (Ocena wiarygodności drzewa: metoda *bootstrap*)
 > Bootstrap jest metodą statystyczną, która opiera się na tworzeniu dużej liczby replik z niewielkimi zmianami w danych początkowych. Drzewa skonstruowane ze zbiorów danych z wprowadzonymi losowymi zmianami dają rozkład topologii drzew, który umożliwia statystyczną ocenę każdego pojedynczego kladu z danego drzewa.
 > Wykorzystanie metody bootstrap do oceny wiarygności skonstruowanego wcześniej drzewa filogenetycznego obejmuje wygenerowanie wielu dopasowań sekwencji (zazwyczaj między 100 a 1000). Dla każdego z wygenerowanych dopasowań jest wyznaczane drzewo filogenetyczne. W zbiorze takich drzew niektóre drzewa będą miały taką samą topologię, jak drzewo oryginalne. Inne będą się od niego różnić. Każdemu z węzłów w oryginalnym drzewie jest następnie przypisywana tzw. wartość bootstrap równe odsetkowi wygenerowanych drzew, w których obserwowano dokładnie takie samo rozgałęzienie linii ewolucyjnych.
 > Nie ma ustalonej reguły, która mówiłaby jak duża musi być wartość bootstrap, aby uznać odpowiedni węzeł drzewa za wiarygodny, a tym samym uznać, że gatunki, których linie ewolucyjne się w nim zbiegają, tworzą klad. W praktyce przyjmuje się, że wartości powyżej 70% takie twierdzenie usprawiedliwiają.
@@ -191,7 +191,7 @@ Ponownie oblicz dystans między sekwencjami stosując jako model substytucji: `K
 6. Ile wynosi dystans między `Spectacled Bear` a `Polar Bear`.
 
 
-### Zad. 10.
+### Zad. 10 (Algorytmy grupowania)
 > **Zapoznaj się z algorytmami tworzenia drzew filogenetycznych: [Choice of Trees](https://www.zoology.ubc.ca/~bio336/Bio336/Lectures/Lecture14/Overheads.html).**
 
 W programie MEGA wykonaj drzewo filogenetyczne sekwencji niedźwiedzi w oparciu o poniższe algorytmy, stosując metodę bootstrap z 100 pseudoreplikacjami.
@@ -211,7 +211,7 @@ W pliku [gw182.fasta](./data/gw182.fasta) znajduje się 17 sekwencji białkowych
 4. Które pary sekwencji są bliżej spokrewnione: ortologi TNRC6C człowieka i szympansa czy paralogi TNRC6C kury?
 
 
-### Zad. 12
+### Zad. 12 (Identyfikacja genu RBP3 u kręgowców)
 Gen białka wiążącego retinoid (**RBP3**) jest dobrze zachowany u kręgowców. Poniżej znajduje się białko kodowone przez ten gen u człowieka:
 
 ```
