@@ -163,7 +163,7 @@ Ustaw korzeń drzewa na gałąź `Crocodillian skink (outgroup)`, wyświetl drze
 
 
 ### Zad. 8
-Sekwencje z poprzedniego zadania należą do żyjących gatunków niedźwiedzi. Niedźwiedź jaskiniowy (*Ursus spelaeus*) wymarł ok. 20 tys. lat temu. Wybierz dowolną sekwencję 12s rRNA z pliku [bears.fasta](./data/bears.fasta), użyj jej jako sekwencji zapytania w programie BLAST i spróbuj znaleźć sekwencję 12s rRNA niedźwiedzia jaskiniowego. Następnie znalezioną sekwencję dołącz do sekwencji pozostałych gatunków w pliku [bears.fasta](./data/bears.fasta) i zbuduj drzewo filogenetyczne.
+Sekwencje z poprzedniego zadania należą do żyjących gatunków niedźwiedzi. Niedźwiedź jaskiniowy (*Ursus spelaeus*) wymarł ok. 20 tys. lat temu. Wybierz dowolną sekwencję 12s rRNA z pliku [bears.fasta](./data/bears.fasta), użyj jej jako sekwencji zapytania w programie BLAST i zidentyfikuj sekwencję 12s rRNA niedźwiedzia jaskiniowego. Następnie znalezioną sekwencję dołącz do sekwencji pozostałych gatunków w pliku [bears.fasta](./data/bears.fasta) i zbuduj drzewo filogenetyczne.
 
 1. Który niedźwiedź jest najbliższym krewnym wymarłego niedźwiedzia jaskiniowego?
 2. Czy dołączenie niedźwiedzia jaskiniowego zmieniło układ pozostałych taksonów na drzewie?
