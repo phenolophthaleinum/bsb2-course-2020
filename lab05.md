@@ -1,6 +1,6 @@
 ## Przyrównanie wielu sekwencji (MSA)
 
-> **Zapoznaj się na YouTube z zasadą działania algorytmów służących do przyrównywania wielu sekwencji: [Multiple sequence alignment](https://youtu.be/g0vTcC7kOcA) [50min].**
+> **Zapoznaj się na YouTube z zasadą działania algorytmów służących do przyrównywania wielu sekwencji: [Multiple sequence alignment I](https://youtu.be/g0vTcC7kOcA) [50min] , [Multiple sequence alignment II](https://youtu.be/q-iSa8c9w9U) [49min] oraz [Multiple sequence alignment III](https://youtu.be/JSO5FY-bfjU) [50min].**
 
 ### Zad. 1
 W pliku [ube.fasta](./data/ube.fasta) znajdują się sekwencje białkowe aktywnego enzymu koniugującego ubikwitynę pochodzące z wielu organizmów. Korzystając z programu ClustalOmega (<a href="http://www.ebi.ac.uk/Tools/msa/">http://www.ebi.ac.uk/Tools/msa/</a>) wykonaj ich dopasowanie.

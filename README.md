@@ -9,7 +9,7 @@ Bioinformatyka Sekwencji Biologicznych 2
 | **02**    | 10.03.2020 | NCBI E-Utilities (Entrez Direct) | [lab02](./lab02.md) |
 | **03**    | 23.03.2020 | Programowanie dynamiczne | [lab03](./lab03.md) |
 | **04**    | 30.03.2020 | BLAST, profile sekwencji | [lab04](./lab04.md) |
-| **05**    | - | MSA i filogenetyka | lab05 |
+| **05**    | 06.04.2020 | MSA i filogenetyka | [lab05](./lab05.md) |
 | **06**    | - | Adnotacja funkcjonalna i metody alignment-free | lab06 |
 | **07**    | - | Kolokwium | -  |
 
