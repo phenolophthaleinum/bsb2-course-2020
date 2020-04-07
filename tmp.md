@@ -84,6 +84,7 @@ Użyj sekwencji zapytania w programie BLAST i przeszukaj bazę `RefSeq`.
 15. Podaj numer dostępu i nazwa organizmu, z jakiego pochodzi sekwencja zapytania.
 16. Jaką funkcję pełni to białko? 
     > Wskazówka: sekcja `COMMENT` rekordu w formacie GenBank.
+
 <br><br>
 
 ### Zad. 2 - Serwis PROSITE (wzorce i profile sekwencyjne)
@@ -108,6 +109,7 @@ Wejdź w rekord domeny Dicer w bazie PROSITE.
 6. Czy w logo domeny Dicer aminokwasy `Y` i `F` są najbardziej zachowanymi aminokwasami?
 7. Wejdź w `Taxonomic distribution` domeny *Dicer*.
    * Czy domena występuje u organizmów prokariotycznych?
+
 <br><br>
 
 ### Zad. 3 - Metaserwis InterPro (integracja wyników)
@@ -123,13 +125,17 @@ Użyj sekwencji z zad. 1 i serwisu [InterPro](http://www.ebi.ac.uk/interpro/) w 
 4. W oparciu o jakie bazy danych domen białkowych, domena Dicer została zidentyfikowana?
 
 #### Rekord domemy Dicer
+Otwórz zakładkę `Entries`.
 
-Otwórz stronę rekordu domeny *Dicer* w bazie InterPro.
+<img src="images/06-03-interpro2.png" alt="06-03-interpro2">
 
-5. W ilu sekwencjach białkowych domena Dicer jest dostępna?
-   > Ile z tych białek należy do *Eukaryota* i *Prokaryota*?
-6. Ile jest różnych układów domen (`Domain architectures`), w których występuje domena Dicer?
-7. Wymień szlaki biochemiczne, w które zaangażowana jest domena Dicer.
+Otwórz stronę rekordu domeny *Dicer* w bazie InterPro (`IPR005034`).
+
+5. W ilu sekwencjach białkowych domena Dicer jest dostępna (zakładka `Proteins`)?
+6. Ile z tych białek należy do *Eukaryota* i *Prokaryota*?
+   * Zakładka: `Taxonomy` > `View your results as a tree`.
+7. Ile jest różnych układów domen (`Domain architectures`), w których występuje domena Dicer?
+8. Wymień szlaki biochemiczne (`Pathways`), w które zaangażowana jest domena Dicer.
 <br><br>
 
 ### Zad. 4 - Informacje o domenach w rekordach UniProt
@@ -167,14 +173,16 @@ QRQPHYSAFGSVGEWLRAIKMGRYEESFAAAGFGSFELVSQISAEDLLRIGVTLAGHQKK
 ILASVQHMKSQAKPGTPGGTGGPAPQY
 ```
 
-1. Do jakiej rodziny białkowej zostało zaklasyfikowane to białko?
+1. Do jakiej rodziny białkowej zostało zaklasyfikowane to białko (`Protein family membership`)?
 2. Ile domen białkowych zostało zidentyfikowanych w sekwencji zapytania?
 3. Podaj lokalizację domeny kinazowej `Protein kinase domain (IPR000719)`.
-4. Czy domena kinazowa zawiera miejsce wiązanie ATP i centrum aktywne?
+4. Czy domena kinazowa zawiera miejsce wiązanie ATP (`Protein_kinase_ATP_BS`) i centrum aktywne (`Tyr_kinase_AS`)?
 
 Wejdź do rekordu domeny kinazowej `IPR000719`.
 
-5. Wymień bazy domen, na podstawie których tworzony jest ten rekord w bazie InterPro (`Contributing signatures`).
+<img src="images/06-04-interpro1.png" alt="06-04-interpro1">
+
+5. Wymień bazy domen, na podstawie których tworzony jest ten rekord w bazie InterPro (`Contributing Member Database Entries`).
 6. Czy w obrębie domeny kinazowej można wyróżnić bardziej specyficzne domeny kinazowe? (`Domain relationships`)
 7. Podaj nazwę nadrodziny, w skład której wchodzi domena kinazowa.
 <br/><br/>
@@ -214,37 +222,22 @@ Przeanalizuj białko pacjenta przy użyciu serwisu InterPro i porównaj z wynika
 <br/><br/>
 
 ### Zad. 7 - InterPro: wszystkie białka zawierające domenę RRM
-Otwórz stronę serwisu [InterPro](https://www.ebi.ac.uk/interpro/). W polu szybkiego wyszukiwania po prawej stronie wyszukaj domenę RRM (*RNA recognition motif domain*).
-
-1. Podaj numer dostępu tej domeny.
-2. Podaj liczbę białek zawierających domenę RRM u bakterii.
+Otwórz stronę serwisu [InterPro](https://www.ebi.ac.uk/interpro/). W polu szybkiego wyszukiwania (`Search by text`) wyszukaj domenę RRM `RNA recognition motif domain` (`IPR000504`). Podaj liczbę białek zawierających domenę RRM u bakterii.
 <br/><br/>
 
 ### Zad. 8 - UniProt: wszystkie białka zawierające domenę RRM
-W bazie UniProt wyszukaj wszystkie białka zawierające domenę RRM u bakterii. 
+W bazie UniProt skorzystaj z zaawansowanego wyszukiwania (`Advanced`) i wyszukaj wszystkie białka zawierające domenę RRM u bakterii (`Cross-reference` > `Family and domain databases` > `InterPro`, `Taxonomy` > `Bacteria`)
 
 1. Podaj użyte zapytanie do bazy UniProt.
 2. Ile białek otrzymano?
 
 
-## Identyfikacja nowych motywów/domen białkowych
-
-
-### Zad. 6
-W pliku [sequences.fasta](./data/sequences.fasta) znajduje się 6 sekwencji białkowych, które pełnią podobną funkcję. Twoim zadaniem jest znalezienie motywów sekwencji wspólnych dla tych sekwencji.
-
-Użyj serwisu [MEME](http://meme-suite.org) i wybierz `Motif Discvovery` > `MEME`. W formularzu, w sekcji `Select the site distribution` wybierz opcję `Any number of repetitions`. Wklej sekwencje lub załaduj je z pliku i rozpocznij analizę.
-
-1. Ile motywów znaleziono?
-2. Które motywy są obecne we wszystkich 6 sekwencjach?
-3. Sprawdź w serwisie Pfam, czy zidentyfikowane motywy odpowiadają znanym już domenom białkowym.
-4. Jaką funkcję pełnią te motywy?
-
 
 ## Ontologia genów
+> Obejrzyj wprowadzenie do ontologii genów: [YouTube](https://youtu.be/_QRgN0yLPn0) [37min].
 
 
-### Zad. 7
+### Zad. 9
 W bazie `Gene` serwisu NCBI wyszukaj gen człowieka o nazwie *CASP6*.
 
 1. Podaj pełną nazwę tego genu.
@@ -259,30 +252,51 @@ W bazie `Gene` serwisu NCBI wyszukaj gen człowieka o nazwie *CASP6*.
 ### Zad. 8
 > Celem tego zadania jest wyszukanie wszystkich genów człowieka (nie tylko *CASP6*) zaangażowanych w proces zaprogramowanej śmierci komórki (*programmed cell death*, PCD).
 
-W serwisie [Gene Ontology](http://amigo.geneontology.org/amigo/), w polu wyszukiwania (`Quick search`) wpisz frazę `programmed cell death` i z listy autouzupełnień wybierz rekord odpowiadający temu procesowi.
+W serwisie [QuickGO](https://www.ebi.ac.uk/QuickGO/), w polu wyszukiwania (`Quick search`) wpisz frazę `programmed cell death` i z listy autouzupełnień wybierz rekord odpowiadający temu procesowi.
 
 1. Podaj numer dostępu procesu PCD.
 2. Jak przebiega proces PCD (jednym zdaniem)?
-3. Przejdź do zakładki `Inferred Tree View`. Czy PCD jest tym samym, czym apoptoza?
+3. Przejdź do zakładki `Child Terms`. Czy PCD jest tym samym, czym apoptoza?
 4. Wymień 3 procesy wchodzące w skład PCD.
-5. Podaj nazwę i numer dostępu procesu, który jest nadrzędny dla PCD.
 
-Przejdź do zakładki `Annotations`. 
+Naciśnij niebieski przycisk `annotations`. 
 
-6. Ile jest genów/białek, które biorą udział w PCD?
-7. Skorzystaj z filtrów (`Filter results`) i ogranicz liczbę wyników do ludzkich białek pochodzące z bazy UniProt. 
+<img src="images/06-08-quickgo1.png" alt="06-08-quickgo1">
+
+5. Ile jest genów/białek, które biorą udział w PCD?
+6. Skorzystaj z filtrów (`Gene Products`) i ogranicz liczbę wyników do białek. 
    - Ile rekordów znaleziono?
-8. Ogranicz listę wyników otrzymaną w pkt. 7 do białek, których funkcja PCD została przypisana na podstawie doświadczeń laboratoryjnych.
+7. Ogranicz listę wyników otrzymaną w pkt. 6 do białek, których funkcja PCD została przypisana na podstawie doświadczeń laboratoryjnych (`experimental evidence used in manual assertion`).
    - Ile rekordów znaleziono?
+8. Ogranicz listę wyników otrzymaną w pkt. 7 do białek należących do człowieka (`Taxon` > Identyfikator taksonomiczny człowieka: `9606`)
 9. Z listy wyników wybierz dowolne białko i przejdź do rekordu w bazie UniProt. Jaki jest numer dostępu tego białka?
 10. W opraciu o informajce zawarte w rekordzie UniProt odpowiedz, czy białko bierze udział w procesach biologicznych innych niż PCD?
 
 
 ## Metody alignment-free
 
+> Przeczytaj [artykuł przeglądowy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7) na temat metody porównywania sekwencji typu "alignment-free".
 
-### Zad. 9 (zadanie domowe)
-Przeczytaj [artykuł przeglądowy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7) na temat metody porównywania sekwencji typu "alignment-free".
+
+### Zad. 9
+Poniżej znajduje się lista numerów dostępu sekwencji genomowych 13 wirusów, w tym koronawirusów COVID-2019, SARS i MERS.
+
+| GenBankID | Common Name | Family |
+| --- | --- | --- |
+| JF915184 | Influenza A H1N1 | Orthomyxoviridae |
+| JX947861 | Influenza C | Orthomyxoviridae |
+| KR063674 | Marburg | Filoviridae |
+| KT029139 | MERS    | Coronaviridae |
+| KX169266 | Influenza B | Orthomyxoviridae |
+| MN908947 | 2019-nCoV   | Coronaviridae |
+| NC001563 | West Nile   | Flaviviridae |
+| NC001617 | Rhinovirus A    | Picornaviridae |
+| NC002031 | Yellow Fever    | Flaviviridae |
+| NC002549 | Ebola   | Filoviridae |
+| NC004718 | SARS    | Coronaviridae |
+| NC012532 | Zika    | Flaviviridae |
+| NC038312 | Rhinovirus B    | Picornaviridae |
+
 
 
 ### Zad. 10*
