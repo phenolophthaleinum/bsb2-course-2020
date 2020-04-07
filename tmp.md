@@ -114,6 +114,8 @@ Wejdź w rekord domeny Dicer w bazie PROSITE.
 ### Zad. 3 - Metaserwis InterPro (integracja wyników)
 > **InterPro** jest zintegrowaną bazą domen zaprojektowaną w celu ujednolicenia wielu baz domen i miejsc funkcjonalnych białek. InterPro łączy informacje z ponad 10 baz danych takich jak: PROSITE, Pfam. Program przetwarza wzorce sekwencji z tych baz danych. Uwzględnia jedynie te motywy oraz domeny sekwencji białkowych, które pokrywają się w kilku bazach. InterPro dopasowuje rekordy, wykorzystując kombinację wyrażeń regularnych, profili oraz ukrytych modeli Markowa. InterPro prezentuje wyniki w postaci graficznej, która podsumowuje dopasowania motywów oraz zawiera linki przekierowujące użytkownika do bardziej szczegółowych informacji na temat zidentyfikowanych domen.
 
+> Zapoznaj się z podstawowymi wiadomościami na temat bazy InterPro: [InterPro: Quick tour](https://www.ebi.ac.uk/training/online/course/interpro-quick-tour/what-interpro).
+
 Użyj sekwencji z zad. 1 i serwisu [InterPro](http://www.ebi.ac.uk/interpro/) w celu identyfikacji domen białkowych.
 
 <img src="images/06-03-interpro1.png" alt="06-03-interpro1">
