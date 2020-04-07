@@ -1,11 +1,11 @@
 ## Domeny białkowe
 
 ### Zad. 1 - Serwis Pfam (modele HMM)
-> **Pfam** jest bazą przyrównań domen białkowych otrzymanych z sekwencji bazy UniProt. Każdy motyw lub domena są przedstawione za pomocą ukrytego modelu Markowa (HMM) utworzonego z przyrównania (*seed alignment*) konserwatywnych oraz reprezentatywnych sekwencji danej rodziny białkowej. W związku z tym, że sposób oceniania prawdopodobieństw w przypadku HMM jest bardziej złożony niż w przypdaku metod opartych na profilach, ich wykorzystanie zwiększa czułość dopasowywania sekwencji do bazy danych. Baza Pfam składa się z dwóch części, **Pfam-A** oraz **Pfam-B**. Pierwsza zawiera przyrównania utworzone ręcznie, natomiast druga przechowuje przyrównania wygenerowane automatycznie (obejmuje ona więcej modeli, lecz potencjalnie zawiera też więcej błędów, ponieważ niektóre modele HMM generowane są z niespokrewnionych sekwencji).
+> **Pfam** jest bazą przyrównań domen białkowych otrzymanych z sekwencji bazy UniProt. Każda domena jest przedstawiona za pomocą ukrytego modelu Markowa (HMM) utworzonego z przyrównania (*seed alignment*) konserwatywnych oraz reprezentatywnych sekwencji danej rodziny białkowej. W związku z tym, że sposób oceniania prawdopodobieństw w przypadku HMM jest bardziej złożony niż w przypdaku metod opartych na profilach, ich wykorzystanie zwiększa czułość dopasowywania sekwencji do bazy danych. Baza Pfam składa się z dwóch części, **Pfam-A** oraz **Pfam-B**. Pierwsza zawiera przyrównania wysokiej jakości (tj. zweryfikowane przez pracowników Pfam), natomiast druga przechowuje przyrównania wygenerowane automatycznie (obejmuje ona więcej modeli, lecz potencjalnie zawiera też więcej błędów, ponieważ niektóre modele HMM generowane są z niespokrewnionych sekwencji).
 
 > Obejrzyj wprowadzenie do bazy Pfam: [YouTube](https://youtu.be/unExXijjMmI) [8min].
 
-Wykorzystaj serwis [Pfam](https://pfam.xfam.org) i zidentyfikuj domeny białkowe obecne w poniższej sekwencji: 
+Otwórz serwis [Pfam](https://pfam.xfam.org) i zidentyfikuj domeny białkowe obecne w poniższej sekwencji: 
 
 ```
 >sequence
@@ -79,7 +79,7 @@ Przejdź do zakładki `Domain organization`.
 
 14. Podaj najczęściej występujący układ domen w białkach, w którym występuje domena `Dicer_domain`.
 
-Użyj sekwencji zapytania w programie BLAST i przeszukaj bazę `RefSeq`.
+Użyj sekwencji zapytania (`sequence`) w programie BLAST i przeszukaj bazę `RefSeq`.
 
 15. Podaj numer dostępu i nazwa organizmu, z jakiego pochodzi sekwencja zapytania.
 16. Jaką funkcję pełni to białko? 
@@ -179,6 +179,8 @@ ILASVQHMKSQAKPGTPGGTGGPAPQY
 3. Podaj lokalizację domeny kinazowej `Protein kinase domain (IPR000719)`.
 4. Czy domena kinazowa zawiera miejsce wiązanie ATP (`Protein_kinase_ATP_BS`) i centrum aktywne (`Tyr_kinase_AS`)?
 
+#### Rekord domeny kinazowej
+
 Wejdź do rekordu domeny kinazowej `IPR000719`.
 
 <img src="images/06-04-interpro1.png" alt="06-04-interpro1">
@@ -213,7 +215,7 @@ QRQPHYSAFGSVGEWLRAIKMGRYEESFAAAGFGSFELVSQISAEDLLRIGVTLAGHQKK
 ILASVQHMKSQAKPGTPGGTGGPAPQY
 ```
 
-Przeprowadź globalne przyrównanie obu sekwencji. 
+Wykorzystaj narzędzie poznane na wcześniejszych zajęciach i przeprowadź globalne przyrównanie obu sekwencji. 
 
 1. Jakie zmiany w sekwencji tego białka występują u chorego pacjenta?
 
@@ -271,6 +273,7 @@ Naciśnij niebieski przycisk `annotations`.
 7. Ogranicz listę wyników otrzymaną w pkt. 6 do białek, których funkcja PCD została przypisana na podstawie doświadczeń laboratoryjnych (`experimental evidence used in manual assertion`).
    - Ile rekordów znaleziono?
 8. Ogranicz listę wyników otrzymaną w pkt. 7 do białek należących do człowieka (`Taxon` > Identyfikator taksonomiczny człowieka: `9606`)
+   - Ile rekordów znaleziono
 9. Z listy wyników wybierz dowolne białko i przejdź do rekordu w bazie UniProt. Jaki jest numer dostępu tego białka?
 10. W opraciu o informajce zawarte w rekordzie UniProt odpowiedz, czy białko bierze udział w procesach biologicznych innych niż PCD?
 
@@ -282,7 +285,7 @@ Naciśnij niebieski przycisk `annotations`.
 
 
 ### Zad. 11 - Relacje filogenetyczne koronawirusów
-Poniżej znajduje się lista numerów dostępu sekwencji genomowych 13 wirusów, w tym koronawirusów 2019-nCoV (GenBank: `MN908947`, Chinese: 2019新型冠狀病毒), SARS i MERS.
+Poniżej znajduje się lista numerów dostępu sekwencji genomowych 13 wirusów, w tym koronawirusów: 2019-nCoV z Wuhan (GenBank: `MN908947`, chińska nazwa: 2019新型冠狀病毒), SARS i MERS.
 
 | GenBankID | Common Name | Family |
 | --- | --- | --- |
@@ -304,17 +307,17 @@ Wejdź na stronę [NCBI](https://www.ncbi.nlm.nih.gov), wybierz nukleotydową ba
 
 ```
 JF915184
+KX169266
 JX947861
+NC002549
 KR063674
 KT029139
-KX169266
+NC004718
 MN908947
 NC001563
-NC001617
 NC002031
-NC002549
-NC004718
 NC012532
+NC001617
 NC038312
 ```
 
