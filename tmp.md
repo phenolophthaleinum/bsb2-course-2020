@@ -279,28 +279,52 @@ Naciśnij niebieski przycisk `annotations`.
 
 
 ### Zad. 9
-Poniżej znajduje się lista numerów dostępu sekwencji genomowych 13 wirusów, w tym koronawirusów COVID-2019, SARS i MERS.
+Poniżej znajduje się lista numerów dostępu sekwencji genomowych 13 wirusów, w tym koronawirusów 2019-nCoV (GenBank: `MN908947`, Chinese: 2019新型冠狀病毒), SARS i MERS.
 
 | GenBankID | Common Name | Family |
 | --- | --- | --- |
 | JF915184 | Influenza A H1N1 | Orthomyxoviridae |
+| KX169266 | Influenza B | Orthomyxoviridae |
 | JX947861 | Influenza C | Orthomyxoviridae |
+| NC002549 | Ebola   | Filoviridae |
 | KR063674 | Marburg | Filoviridae |
 | KT029139 | MERS    | Coronaviridae |
-| KX169266 | Influenza B | Orthomyxoviridae |
+| NC004718 | SARS    | Coronaviridae |
 | MN908947 | 2019-nCoV   | Coronaviridae |
 | NC001563 | West Nile   | Flaviviridae |
-| NC001617 | Rhinovirus A    | Picornaviridae |
 | NC002031 | Yellow Fever    | Flaviviridae |
-| NC002549 | Ebola   | Filoviridae |
-| NC004718 | SARS    | Coronaviridae |
 | NC012532 | Zika    | Flaviviridae |
+| NC001617 | Rhinovirus A    | Picornaviridae |
 | NC038312 | Rhinovirus B    | Picornaviridae |
 
+Wejdź na stronę [NCBI](https://www.ncbi.nlm.nih.gov), wybierz nukleotydową bazę danych i w oknie wyszukiwania wklej poniższe numery dostępu sekwencji wirusowych. Pobierz sekwencje w formacie FASTA.
+
+```
+JF915184
+JX947861
+KR063674
+KT029139
+KX169266
+MN908947
+NC001563
+NC001617
+NC002031
+NC002549
+NC004718
+NC012532
+NC038312
+```
+
+Otwórz serwis [Alfree](http://www.combio.pl/alfree). Naciśnij przycisk `START`, umieść wszystkie sekwencje w polu tekstowym `Sequence (FASTA format`). W panelu `Advanced options` ustaw dlugość słowa: 5. Naciśnij przycisk `Submit`.
+
+<img src="images/06-09-alfree1.png" alt="06-09-alfree1">
+
+1. Czy sekwencje wirusowe grupują się ze względu na przynależność do rodziny?
+2. Z którym wirusem, wirus 2019-nCoV jest najbliżej spokrewniony?
 
 
 ### Zad. 10*
-Utwórz skrypt, który dla sekwencji FASTA podanych przez użytkownika w pliku obliczy Normalized Compression Distance (NCD) [rys. 2 w artykule] między każdą parą sekwencji w pliku. Jako formę kompresji do obliczania NCD użyj metodę Lempel-Ziv.
+Utwórz skrypt, który dla sekwencji wirusowych z poprzedniego zadania obliczy *Normalized Compression Distance (NCD)* [rys. 2 w artykule] między każdą parą sekwencji w pliku. Jako formę kompresji do obliczania NCD użyj metodę Lempel-Ziv.
 
 Przykład kompresji Lempel-Ziv dla poniższej sekwencji `x`:
 
