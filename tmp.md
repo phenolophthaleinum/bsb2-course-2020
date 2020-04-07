@@ -84,20 +84,27 @@ Użyj sekwencji zapytania w programie BLAST i przeszukaj bazę `RefSeq`.
     > Wskazówka: sekcja `COMMENT` rekordu w formacie GenBank.
 
 
-### Zad. 2 (serwis PROSITE)
+### Zad. 2 - Serwis PROSITE (wzorce i profile sekwencyjne)
+> **PROSITE** charakteryzuje funkcję białka oraz jego rodziny stosując jeden wzorzec konsensusowy. Wzorce sekwencji konsensusowe pochodzą z konserwatywnych regionów przyrównań sekwencji białkowych i  przedstawiane są w bazie PROSITE za pomocą wyrażeń regularnych. Informacje na temat funkcji tych wzorców pochodzą przede wszystkim z danych literaturowych. W celu przeszukania bazy badaną sekwencją PROSITE stosuje dokładne skojarzenie z wzorcem. Poza wyrażeniami regularnymi, w celu ich dopełnienia, serwis PROSITE tworzy także profile.
+
+
 Użyj sekwencji z zad. 1 i serwisu [PROSITE](https://prosite.expasy.org/prosite.html) w celu identyfikacji domen białkowych.
 
-1. Podaj nazwę domeny, której nie zidentyfikowano wcześniej w seriwsie Pfam.
-   > Jaką funkcję pełni ta domena?
-2. Podaj numer dostępu domeny typu Dicer.
-3. Czy lokalizacja domeny Dicer w sekwencji jest taka sama, jak w przewidywaniach Pfam?
+1. Podaj nazwę domeny, której nie zidentyfikowano wcześniej w serwisie Pfam.
+   * Jaką funkcję pełni ta domena?
+2. Czy serwis PROSITE zidentyfikował jakieś wzorce sekwencyjne w sekwencji zapytania?
+3. Podaj numer dostępu domeny typu *Dicer* w bazie PROSITE.
+4. Czy lokalizacja domeny *Dicer* w sekwencji jest taka sama, jak w przewidywaniach Pfam?
+
+#### Rekord domeny Dicer
 
 Wejdź w rekord domeny Dicer w bazie PROSITE.
 
-4. Podaj długość domeny Dicer w bazie PROSITE.
-5. Czy w logo domeny Dicer aminokwasy `Y` i `F` są najbardziej zachowanymi aminokwasami?
-5. Wejdź w `Taxonomic distribution` domeny. Czy domena występuje u organizmów prokariotycznych?
-
+5. Podaj długość profilu domeny Dicer w bazie PROSITE.
+6. Czy w logo domeny Dicer aminokwasy `Y` i `F` są najbardziej zachowanymi aminokwasami?
+7. Wejdź w `Taxonomic distribution` domeny *Dicer*.
+   * Czy domena występuje u organizmów prokariotycznych?
+   
 
 ### Zad. 3 (metaserwis InterPro)
 Użyj sekwencji z zad. 1 i serwisu [InterPro](http://www.ebi.ac.uk/interpro/) w celu identyfikacji domen białkowych.
