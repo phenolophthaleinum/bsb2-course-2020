@@ -235,10 +235,10 @@ W bazie UniProt skorzystaj z zaawansowanego wyszukiwania (`Advanced`) i wyszukaj
 <br>
 
 ## Ontologia genów
-> Obejrzyj wprowadzenie do ontologii genów: [YouTube](https://youtu.be/_QRgN0yLPn0) [37min].
+> Obejrzyj wprowadzenie do ontologii genów i serwisu QuickGO: [YouTube](https://youtu.be/_QRgN0yLPn0) [37min].
 
 
-### Zad. 9
+### Zad. 9 - Ontologia pojedynczego genu
 W bazie `Gene` serwisu NCBI wyszukaj gen człowieka o nazwie *CASP6*.
 
 1. Podaj pełną nazwę tego genu.
@@ -251,7 +251,7 @@ W bazie `Gene` serwisu NCBI wyszukaj gen człowieka o nazwie *CASP6*.
 
 <br>
 
-### Zad. 10
+### Zad. 10 - Wyszukiwanie genów zaangażowanych w dany proces biologicznych
 > Celem tego zadania jest wyszukanie wszystkich genów człowieka (nie tylko *CASP6*) zaangażowanych w proces zaprogramowanej śmierci komórki (*programmed cell death*, PCD).
 
 W serwisie [QuickGO](https://www.ebi.ac.uk/QuickGO/), w polu wyszukiwania (`Quick search`) wpisz frazę `programmed cell death` i z listy autouzupełnień wybierz rekord odpowiadający temu procesowi.
