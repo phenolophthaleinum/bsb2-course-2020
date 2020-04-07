@@ -230,7 +230,7 @@ W bazie UniProt skorzystaj z zaawansowanego wyszukiwania (`Advanced`) i wyszukaj
 1. Podaj użyte zapytanie do bazy UniProt.
 2. Ile białek otrzymano?
 
-
+<br><br>
 
 ## Ontologia genów
 > Obejrzyj wprowadzenie do ontologii genów: [YouTube](https://youtu.be/_QRgN0yLPn0) [37min].
@@ -248,7 +248,7 @@ W bazie `Gene` serwisu NCBI wyszukaj gen człowieka o nazwie *CASP6*.
 4. Na stronie rekordu odszukaj identyfikator bazy UniProt kodowanego przez ten gen białka i przejdź do rekordu UniProt. Czy w rekordzie UniProt również znajdują się informacje na temat ontologii tego genu?
 
 
-### Zad. 8
+### Zad. 10
 > Celem tego zadania jest wyszukanie wszystkich genów człowieka (nie tylko *CASP6*) zaangażowanych w proces zaprogramowanej śmierci komórki (*programmed cell death*, PCD).
 
 W serwisie [QuickGO](https://www.ebi.ac.uk/QuickGO/), w polu wyszukiwania (`Quick search`) wpisz frazę `programmed cell death` i z listy autouzupełnień wybierz rekord odpowiadający temu procesowi.
@@ -277,7 +277,7 @@ Naciśnij niebieski przycisk `annotations`.
 > Przeczytaj [artykuł przeglądowy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7) na temat metody porównywania sekwencji typu "alignment-free".
 
 
-### Zad. 9 - Relacje filogenetyczne koronawirusów
+### Zad. 11 - Relacje filogenetyczne koronawirusów
 Poniżej znajduje się lista numerów dostępu sekwencji genomowych 13 wirusów, w tym koronawirusów 2019-nCoV (GenBank: `MN908947`, Chinese: 2019新型冠狀病毒), SARS i MERS.
 
 | GenBankID | Common Name | Family |
@@ -322,7 +322,7 @@ Otwórz serwis [Alfree](http://www.combio.pl/alfree). Naciśnij przycisk `START`
 2. Z którym wirusem, wirus 2019-nCoV jest najbliżej spokrewniony?
 <br><br>
 
-### Zad. 10 - Programowanie (dla chętnych)
+### Zad. 12 - Programowanie (dla chętnych)
 Utwórz skrypt, który dla sekwencji wirusowych z poprzedniego zadania obliczy *Normalized Compression Distance (NCD)* [rys. 2 w artykule] między każdą parą sekwencji w pliku. Jako formę kompresji do obliczania NCD użyj metodę Lempel-Ziv.
 
 Przykład kompresji Lempel-Ziv dla poniższej sekwencji `x`:
