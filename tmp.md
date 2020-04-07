@@ -278,7 +278,7 @@ Naciśnij niebieski przycisk `annotations`.
 > Przeczytaj [artykuł przeglądowy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7) na temat metody porównywania sekwencji typu "alignment-free".
 
 
-### Zad. 9
+### Zad. 9 - Relacje filogenetyczne koronawirusów
 Poniżej znajduje się lista numerów dostępu sekwencji genomowych 13 wirusów, w tym koronawirusów 2019-nCoV (GenBank: `MN908947`, Chinese: 2019新型冠狀病毒), SARS i MERS.
 
 | GenBankID | Common Name | Family |
@@ -323,7 +323,7 @@ Otwórz serwis [Alfree](http://www.combio.pl/alfree). Naciśnij przycisk `START`
 2. Z którym wirusem, wirus 2019-nCoV jest najbliżej spokrewniony?
 
 
-### Zad. 10*
+### Zad. 10 - Programowanie (dla chętnych)
 Utwórz skrypt, który dla sekwencji wirusowych z poprzedniego zadania obliczy *Normalized Compression Distance (NCD)* [rys. 2 w artykule] między każdą parą sekwencji w pliku. Jako formę kompresji do obliczania NCD użyj metodę Lempel-Ziv.
 
 Przykład kompresji Lempel-Ziv dla poniższej sekwencji `x`:
