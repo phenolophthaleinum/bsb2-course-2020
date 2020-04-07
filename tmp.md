@@ -88,7 +88,9 @@ Użyj sekwencji zapytania w programie BLAST i przeszukaj bazę `RefSeq`.
 > **PROSITE** charakteryzuje funkcję białka oraz jego rodziny stosując jeden wzorzec konsensusowy. Wzorce sekwencji konsensusowe pochodzą z konserwatywnych regionów przyrównań sekwencji białkowych i  przedstawiane są w bazie PROSITE za pomocą wyrażeń regularnych. Informacje na temat funkcji tych wzorców pochodzą przede wszystkim z danych literaturowych. W celu przeszukania bazy badaną sekwencją PROSITE stosuje dokładne skojarzenie z wzorcem. Poza wyrażeniami regularnymi, w celu ich dopełnienia, serwis PROSITE tworzy także profile.
 
 
-Użyj sekwencji z zad. 1 i serwisu [PROSITE](https://prosite.expasy.org/prosite.html) w celu identyfikacji domen białkowych.
+Użyj sekwencji z zad. 1 i serwisu [PROSITE](https://prosite.expasy.org/prosite.html) w celu identyfikacji domen białkowych. Umieść sekwencję w polu `Quick Scan mode of ScanProsite`. Naciśnij przycisk `Scan`.
+
+<img src="images/06-02-prosite1.png" alt="06-02-prosite1">
 
 1. Podaj nazwę domeny, której nie zidentyfikowano wcześniej w serwisie Pfam.
    * Jaką funkcję pełni ta domena?
@@ -104,9 +106,9 @@ Wejdź w rekord domeny Dicer w bazie PROSITE.
 6. Czy w logo domeny Dicer aminokwasy `Y` i `F` są najbardziej zachowanymi aminokwasami?
 7. Wejdź w `Taxonomic distribution` domeny *Dicer*.
    * Czy domena występuje u organizmów prokariotycznych?
-   
 
-### Zad. 3 (metaserwis InterPro)
+
+### Zad. 3 - Metaserwis InterPro (integracja wyników)
 Użyj sekwencji z zad. 1 i serwisu [InterPro](http://www.ebi.ac.uk/interpro/) w celu identyfikacji domen białkowych.
 
 1. Ile domen białkowych zidentyfikowano?
@@ -114,7 +116,9 @@ Użyj sekwencji z zad. 1 i serwisu [InterPro](http://www.ebi.ac.uk/interpro/) w 
 3. Podaj lokalizacaję domeny Dicer w sekwencji.
 4. W oparciu o jakie bazy danych domen białkowych, domena Dicer została zidentyfikowana?
 
-Wejdź w rekord domeny Dicer.
+#### Rekord domemy Dicer
+
+Otwórz stronę rekordu domeny *Dicer* w bazie InterPro.
 
 5. W ilu sekwencjach białkowych domena Dicer jest dostępna?
    > Ile z tych białek należy do *Eukaryota* i *Prokaryota*?
@@ -122,8 +126,19 @@ Wejdź w rekord domeny Dicer.
 7. Wymień szlaki biochemiczne, w które zaangażowana jest domena Dicer.
 
 
-### Zad. 4
-Korzystając z serwisu InterPro przeanalizuj poniższą sekwencję:
+### Zad. 4 - Informacje o domenach w rekordach UniProt
+Użyj programu BLAST na stronie serwisu [UniProt](https://www.uniprot.org/) w celu zidentyfikowania sekwencji białkowej z zadania 1.
+
+1. Podaj numer dostępu oraz nazwę znalezionej sekwencji.
+
+Otwórz rekord znalezionej sekwencji białkowej.
+
+2. Czy w rekordzie UniProt zawarte są informacje o domenach występujących w tym białku?
+<br/><br/>
+
+
+### Zad. 5 - InterPro: hierarchiczne relacje między domenami
+Korzystając z serwisu InterPro zidentyfikuj domeny białkowe w poniższej sekwencji:
 
 ```
 >seq1
@@ -146,18 +161,21 @@ QRQPHYSAFGSVGEWLRAIKMGRYEESFAAAGFGSFELVSQISAEDLLRIGVTLAGHQKK
 ILASVQHMKSQAKPGTPGGTGGPAPQY
 ```
 
-1. Ile domen białkowych zostało zidentyfikowanych?
-2. Podaj lokalizację domeny kinazowej `Protein kinase domain (IPR000719)`.
+1. Do jakiej rodziny białkowej zostało zaklasyfikowane to białko?
+2. Ile domen białkowych zostało zidentyfikowanych w sekwencji zapytania?
+3. Podaj lokalizację domeny kinazowej `Protein kinase domain (IPR000719)`.
+4. Czy domena kinazowa zawiera miejsce wiązanie ATP i centrum aktywne?
 
-Wejdź do rekordu domeny kinazowej.
+Wejdź do rekordu domeny kinazowej `IPR000719`.
 
-3. Wymień bazy domen, na podstawie których tworzony jest ten rekord (`Contributing signatures`).
-4. Czy w obrębie domeny kinazowej można wyróżnić bardziej specyficzne domeny kinazowe? (`Domain relationships`)
-5. Podaj nazwę nadrodziny, w skład której wchodzi domena kinazowa.
+5. Wymień bazy domen, na podstawie których tworzony jest ten rekord w bazie InterPro (`Contributing signatures`).
+6. Czy w obrębie domeny kinazowej można wyróżnić bardziej specyficzne domeny kinazowe? (`Domain relationships`)
+7. Podaj nazwę nadrodziny, w skład której wchodzi domena kinazowa.
+<br/><br/>
 
 
-### Zad. 5
-Poniżej znajduje się sekwencja białkowa `seq2` odpowiadająca sekwencji `seq1` z poprzedniego zadania, ale pochodząca od pacjenta chorującego na pewne schorzenie.
+### Zad. 6 - InterPro: mutacja w obrębie domeny
+Poniżej znajduje się sekwencja białkowa `seq2` odpowiadająca sekwencji `seq1` z poprzedniego zadania, lecz pochodzi od pacjenta chorującego na pewne schorzenie.
 
 ```
 >seq2
@@ -184,9 +202,23 @@ Przeprowadź globalne przyrównanie obu sekwencji.
 
 1. Jakie zmiany w sekwencji tego białka występują u chorego pacjenta?
 
-Przeanalizuj białko pacjenta przy użyciu serwisu InterPro i porównaj z wynikami InterPro osoby zdrowej. 
+Przeanalizuj białko pacjenta przy użyciu serwisu InterPro i porównaj z wynikami dla sekwencji osoby zdrowej. 
 
 2. W obrębie, której domeny doszło do mutacji u pacjenta?
+
+
+### Zad. 7 - InterPro: wszystkie białka zawierające domenę RRM
+Otwórz stronę serwisu [InterPro](https://www.ebi.ac.uk/interpro/). W polu szybkiego wyszukiwania po prawej stronie wyszukaj domenę RRM (*RNA recognition motif domain*).
+
+1. Podaj numer dostępu tej domeny.
+2. Podaj liczbę białek zawierających domenę RRM u bakterii.
+
+
+### Zad. 8 - UniProt: wszystkie białka zawierające domenę RRM
+W bazie UniProt wyszukaj wszystkie białka zawierające domenę RRM u bakterii. 
+
+1. Podaj użyte zapytanie do bazy UniProt.
+2. Ile białek otrzymano?
 
 
 ## Identyfikacja nowych motywów/domen białkowych
