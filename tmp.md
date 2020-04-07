@@ -247,7 +247,8 @@ W bazie `Gene` serwisu NCBI wyszukaj gen człowieka o nazwie *CASP6*.
 3. O czym informują trzyliterowe kody znajdujące się w kolumnie `Evidence Code`?
 4. Na stronie rekordu odszukaj identyfikator bazy UniProt kodowanego przez ten gen białka i przejdź do rekordu UniProt. Czy w rekordzie UniProt również znajdują się informacje na temat ontologii tego genu?
 
-<br><br>
+<br>
+
 ### Zad. 10
 > Celem tego zadania jest wyszukanie wszystkich genów człowieka (nie tylko *CASP6*) zaangażowanych w proces zaprogramowanej śmierci komórki (*programmed cell death*, PCD).
 
@@ -272,6 +273,7 @@ Naciśnij niebieski przycisk `annotations`.
 10. W opraciu o informajce zawarte w rekordzie UniProt odpowiedz, czy białko bierze udział w procesach biologicznych innych niż PCD?
 
 <br>
+
 ## Metody alignment-free
 
 > Przeczytaj [artykuł przeglądowy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7) na temat metody porównywania sekwencji typu "alignment-free".
