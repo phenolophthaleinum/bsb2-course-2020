@@ -84,7 +84,7 @@ Użyj sekwencji zapytania w programie BLAST i przeszukaj bazę `RefSeq`.
 15. Podaj numer dostępu i nazwa organizmu, z jakiego pochodzi sekwencja zapytania.
 16. Jaką funkcję pełni to białko? 
     > Wskazówka: sekcja `COMMENT` rekordu w formacie GenBank.
-
+<br><br>
 
 ### Zad. 2 - Serwis PROSITE (wzorce i profile sekwencyjne)
 > **PROSITE** charakteryzuje funkcję białka oraz jego rodziny stosując jeden wzorzec konsensusowy. Wzorce sekwencji konsensusowe pochodzą z konserwatywnych regionów przyrównań sekwencji białkowych i  przedstawiane są w bazie PROSITE za pomocą wyrażeń regularnych. Informacje na temat funkcji tych wzorców pochodzą przede wszystkim z danych literaturowych. W celu przeszukania bazy badaną sekwencją PROSITE stosuje dokładne skojarzenie z wzorcem. Poza wyrażeniami regularnymi, w celu ich dopełnienia, serwis PROSITE tworzy także profile.
@@ -108,12 +108,14 @@ Wejdź w rekord domeny Dicer w bazie PROSITE.
 6. Czy w logo domeny Dicer aminokwasy `Y` i `F` są najbardziej zachowanymi aminokwasami?
 7. Wejdź w `Taxonomic distribution` domeny *Dicer*.
    * Czy domena występuje u organizmów prokariotycznych?
-
+<br><br>
 
 ### Zad. 3 - Metaserwis InterPro (integracja wyników)
 > **InterPro** jest zintegrowaną bazą domen zaprojektowaną w celu ujednolicenia wielu baz domen i miejsc funkcjonalnych białek. InterPro łączy informacje z ponad 10 baz danych takich jak: PROSITE, Pfam. Program przetwarza wzorce sekwencji z tych baz danych. Uwzględnia jedynie te motywy oraz domeny sekwencji białkowych, które pokrywają się w kilku bazach. InterPro dopasowuje rekordy, wykorzystując kombinację wyrażeń regularnych, profili oraz ukrytych modeli Markowa. InterPro prezentuje wyniki w postaci graficznej, która podsumowuje dopasowania motywów oraz zawiera linki przekierowujące użytkownika do bardziej szczegółowych informacji na temat zidentyfikowanych domen.
 
 Użyj sekwencji z zad. 1 i serwisu [InterPro](http://www.ebi.ac.uk/interpro/) w celu identyfikacji domen białkowych.
+
+<img src="images/06-03-interpro1.png" alt="06-03-interpro1">
 
 1. Ile domen białkowych zidentyfikowano?
 2. Podaj numer dostępu domeny typu Dicer.
@@ -128,7 +130,7 @@ Otwórz stronę rekordu domeny *Dicer* w bazie InterPro.
    > Ile z tych białek należy do *Eukaryota* i *Prokaryota*?
 6. Ile jest różnych układów domen (`Domain architectures`), w których występuje domena Dicer?
 7. Wymień szlaki biochemiczne, w które zaangażowana jest domena Dicer.
-
+<br><br>
 
 ### Zad. 4 - Informacje o domenach w rekordach UniProt
 Użyj programu BLAST na stronie serwisu [UniProt](https://www.uniprot.org/) w celu zidentyfikowania sekwencji białkowej z zadania 1.
@@ -209,14 +211,14 @@ Przeprowadź globalne przyrównanie obu sekwencji.
 Przeanalizuj białko pacjenta przy użyciu serwisu InterPro i porównaj z wynikami dla sekwencji osoby zdrowej. 
 
 2. W obrębie, której domeny doszło do mutacji u pacjenta?
-
+<br/><br/>
 
 ### Zad. 7 - InterPro: wszystkie białka zawierające domenę RRM
 Otwórz stronę serwisu [InterPro](https://www.ebi.ac.uk/interpro/). W polu szybkiego wyszukiwania po prawej stronie wyszukaj domenę RRM (*RNA recognition motif domain*).
 
 1. Podaj numer dostępu tej domeny.
 2. Podaj liczbę białek zawierających domenę RRM u bakterii.
-
+<br/><br/>
 
 ### Zad. 8 - UniProt: wszystkie białka zawierające domenę RRM
 W bazie UniProt wyszukaj wszystkie białka zawierające domenę RRM u bakterii. 
