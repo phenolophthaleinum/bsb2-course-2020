@@ -1,7 +1,9 @@
 ## Domeny białkowe
 
 ### Zad. 1 - Serwis Pfam (modele HMM)
-> **Obejrzyj wprowadzenie do bazy Pfam: [YouTube](https://youtu.be/unExXijjMmI) [8min].**
+> **Pfam** jest bazą przyrównań domen białkowych otrzymanych z sekwencji bazy UniProt. Każdy motyw lub domena są przedstawione za pomocą ukrytego modelu Markowa (HMM) utworzonego z przyrównania (*seed alignment*) konserwatywnych oraz reprezentatywnych sekwencji danej rodziny białkowej. W związku z tym, że sposób oceniania prawdopodobieństw w przypadku HMM jest bardziej złożony niż w przypdaku metod opartych na profilach, ich wykorzystanie zwiększa czułość dopasowywania sekwencji do bazy danych. Baza Pfam składa się z dwóch części, **Pfam-A** oraz **Pfam-B**. Pierwsza zawiera przyrównania utworzone ręcznie, natomiast druga przechowuje przyrównania wygenerowane automatycznie (obejmuje ona więcej modeli, lecz potencjalnie zawiera też więcej błędów, ponieważ niektóre modele HMM generowane są z niespokrewnionych sekwencji).
+
+> Obejrzyj wprowadzenie do bazy Pfam: [YouTube](https://youtu.be/unExXijjMmI) [8min].
 
 Wykorzystaj serwis [Pfam](https://pfam.xfam.org) i zidentyfikuj domeny białkowe obecne w poniższej sekwencji: 
 
@@ -109,6 +111,8 @@ Wejdź w rekord domeny Dicer w bazie PROSITE.
 
 
 ### Zad. 3 - Metaserwis InterPro (integracja wyników)
+> **InterPro** jest zintegrowaną bazą domen zaprojektowaną w celu ujednolicenia wielu baz domen i miejsc funkcjonalnych białek. InterPro łączy informacje z ponad 10 baz danych takich jak: PROSITE, Pfam. Program przetwarza wzorce sekwencji z tych baz danych. Uwzględnia jedynie te motywy oraz domeny sekwencji białkowych, które pokrywają się w kilku bazach. InterPro dopasowuje rekordy, wykorzystując kombinację wyrażeń regularnych, profili oraz ukrytych modeli Markowa. InterPro prezentuje wyniki w postaci graficznej, która podsumowuje dopasowania motywów oraz zawiera linki przekierowujące użytkownika do bardziej szczegółowych informacji na temat zidentyfikowanych domen.
+
 Użyj sekwencji z zad. 1 i serwisu [InterPro](http://www.ebi.ac.uk/interpro/) w celu identyfikacji domen białkowych.
 
 1. Ile domen białkowych zidentyfikowano?
