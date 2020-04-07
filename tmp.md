@@ -85,7 +85,7 @@ Użyj sekwencji zapytania w programie BLAST i przeszukaj bazę `RefSeq`.
 16. Jaką funkcję pełni to białko? 
     > Wskazówka: sekcja `COMMENT` rekordu w formacie GenBank.
 
-<br><br>
+<br>
 
 ### Zad. 2 - Serwis PROSITE (wzorce i profile sekwencyjne)
 > **PROSITE** charakteryzuje funkcję białka oraz jego rodziny stosując jeden wzorzec konsensusowy. Wzorce sekwencji konsensusowe pochodzą z konserwatywnych regionów przyrównań sekwencji białkowych i  przedstawiane są w bazie PROSITE za pomocą wyrażeń regularnych. Informacje na temat funkcji tych wzorców pochodzą przede wszystkim z danych literaturowych. W celu przeszukania bazy badaną sekwencją PROSITE stosuje dokładne skojarzenie z wzorcem. Poza wyrażeniami regularnymi, w celu ich dopełnienia, serwis PROSITE tworzy także profile.
@@ -109,7 +109,6 @@ Wejdź w rekord domeny Dicer w bazie PROSITE.
 6. Czy w logo domeny Dicer aminokwasy `Y` i `F` są najbardziej zachowanymi aminokwasami?
 7. Wejdź w `Taxonomic distribution` domeny *Dicer*.
    * Czy domena występuje u organizmów prokariotycznych?
-
 <br><br>
 
 ### Zad. 3 - Metaserwis InterPro (integracja wyników)
@@ -321,7 +320,7 @@ Otwórz serwis [Alfree](http://www.combio.pl/alfree). Naciśnij przycisk `START`
 
 1. Czy sekwencje wirusowe grupują się ze względu na przynależność do rodziny?
 2. Z którym wirusem, wirus 2019-nCoV jest najbliżej spokrewniony?
-
+<br><br>
 
 ### Zad. 10 - Programowanie (dla chętnych)
 Utwórz skrypt, który dla sekwencji wirusowych z poprzedniego zadania obliczy *Normalized Compression Distance (NCD)* [rys. 2 w artykule] między każdą parą sekwencji w pliku. Jako formę kompresji do obliczania NCD użyj metodę Lempel-Ziv.
