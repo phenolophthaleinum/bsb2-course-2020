@@ -73,9 +73,11 @@ Będąc w zakladce `Species`, kliknij na kartę `Tree`.
 Otwórz zakładkę `HMM logo`.
 
 12. Ile wynosi długość sekwencji domeny `Dicer_dimer`?
-13. Jakie dwa aminokwasy są najbardziej zachowane w pozycji 8 sekwencji domeny?
+13. Jakie dwa aminokwasy są najbardziej zachowane w ósmej pozycji sekwencji domeny?
 
 Przejdź do zakładki `Domain organization`.
+
+<img src="images/06-01-pfam3.png" alt="06-01-pfam3">
 
 14. Podaj najczęściej występujący układ domen w białkach, w którym występuje domena `Dicer_domain`.
 
@@ -97,7 +99,7 @@ Użyj sekwencji z zad. 1 i serwisu [PROSITE](https://prosite.expasy.org/prosite.
 
 1. Podaj nazwę domeny, której nie zidentyfikowano wcześniej w serwisie Pfam.
    * Jaką funkcję pełni ta domena?
-2. Czy serwis PROSITE zidentyfikował jakieś wzorce sekwencyjne w sekwencji zapytania?
+2. Czy serwis PROSITE zidentyfikował jakieś wzorce sekwencyjne w sekwencji zapytania (`hits by patterns`)?
 3. Podaj numer dostępu domeny typu *Dicer* w bazie PROSITE.
 4. Czy lokalizacja domeny *Dicer* w sekwencji jest taka sama, jak w przewidywaniach Pfam?
 
@@ -105,7 +107,7 @@ Użyj sekwencji z zad. 1 i serwisu [PROSITE](https://prosite.expasy.org/prosite.
 
 Wejdź w rekord domeny Dicer w bazie PROSITE.
 
-5. Podaj długość profilu domeny Dicer w bazie PROSITE.
+5. Podaj długość profilu domeny Dicer w bazie PROSITE (`Retrieve the sequence logo from the alignment`).
 6. Czy w logo domeny Dicer aminokwasy `Y` i `F` są najbardziej zachowanymi aminokwasami?
 7. Wejdź w `Taxonomic distribution` domeny *Dicer*.
    * Czy domena występuje u organizmów prokariotycznych?
