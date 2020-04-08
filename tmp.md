@@ -54,8 +54,9 @@ Rozwiń dopasowanie domeny `Dicer_dimer` z modelem HMM z bazy Pfam (`Show`).
 Otwórz stronę rekordu domeny `Dicer_dimer`.
 
 5. Podaj numer dostępu tej domeny w bazie Pfam.
+   > Numer dostępu zaczyna się od liter `PF`.
 6. Jaką funkcję pełni ta domena (krótko)?
-7. Ile gatunków posiada tę domenę białkową?
+7. Ile gatunków (*species*) posiada tę domenę białkową?
 
 Otwórz zakładkę `Species`.
 
@@ -68,7 +69,7 @@ Będąc w zakladce `Species`, kliknij na kartę `Tree`.
 
 10. Ile sekwencji białek człowieka posiada tę domenę?
 11. Ile sekwencji białek człowiekowatych (*Hominidae*) posiada tę domenę. 
-    * Podaj numery dostępu tych białek.
+    * Podaj numery dostępu tych białek (`Download` > `sequence accessions`).
 
 Otwórz zakładkę `HMM logo`.
 
@@ -81,7 +82,7 @@ Przejdź do zakładki `Domain organization`.
 
 14. Podaj najczęściej występujący układ domen w białkach, w którym występuje domena `Dicer_domain`.
 
-Użyj sekwencji zapytania (`sequence`) w programie BLAST i przeszukaj bazę `RefSeq`.
+Użyj sekwencji z tego zadania (`sequence`) w programie BLAST i przeszukaj bazę `RefSeq`.
 
 15. Podaj numer dostępu i nazwa organizmu, z jakiego pochodzi sekwencja zapytania.
 16. Jaką funkcję pełni to białko? 
@@ -101,6 +102,7 @@ Użyj sekwencji z zad. 1 i serwisu [PROSITE](https://prosite.expasy.org/prosite.
    * Jaką funkcję pełni ta domena?
 2. Czy serwis PROSITE zidentyfikował jakieś wzorce sekwencyjne w sekwencji zapytania (`hits by patterns`)?
 3. Podaj numer dostępu domeny *Dicer* w bazie PROSITE.
+   > Numer dostępu zaczyna się od liter `PS`.
 4. Czy lokalizacja domeny *Dicer* w sekwencji jest taka sama, jak w przewidywaniach Pfam?
 
 #### Rekord domeny Dicer
@@ -124,8 +126,11 @@ Użyj sekwencji z zad. 1 i serwisu [InterPro](http://www.ebi.ac.uk/interpro/) w 
 
 1. Ile domen białkowych zidentyfikowano?
 2. Podaj numer dostępu domeny typu Dicer.
+   > Numer dostępu zaczyna się od liter `IPR`.
 3. Podaj lokalizacaję domeny Dicer w sekwencji.
 4. W oparciu o jakie bazy danych domen białkowych, domena Dicer została zidentyfikowana?
+
+<img src="images/06-03-interpro1b.png" alt="06-03-interpro1b">
 
 #### Rekord domemy Dicer
 Otwórz zakładkę `Entries`.
