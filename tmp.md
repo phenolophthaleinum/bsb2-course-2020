@@ -46,7 +46,7 @@ SAAARRALRSLKANQPQVPNS
 
 Rozwiń dopasowanie domeny `Dicer_dimer` z modelem HMM z bazy Pfam (`Show`).
 
-4. Podaj fragment sekwencji domeny o największym prawdopodobieństwie (zgodności) z modelem HMM.
+4. Podaj nieprzerwany fragment sekwencji domeny o największym prawdopodobieństwie (zgodności) z modelem HMM.
 
 
 #### Rekord domeny Dicer
@@ -100,7 +100,7 @@ Użyj sekwencji z zad. 1 i serwisu [PROSITE](https://prosite.expasy.org/prosite.
 1. Podaj nazwę domeny, której nie zidentyfikowano wcześniej w serwisie Pfam.
    * Jaką funkcję pełni ta domena?
 2. Czy serwis PROSITE zidentyfikował jakieś wzorce sekwencyjne w sekwencji zapytania (`hits by patterns`)?
-3. Podaj numer dostępu domeny typu *Dicer* w bazie PROSITE.
+3. Podaj numer dostępu domeny *Dicer* w bazie PROSITE.
 4. Czy lokalizacja domeny *Dicer* w sekwencji jest taka sama, jak w przewidywaniach Pfam?
 
 #### Rekord domeny Dicer
