@@ -192,9 +192,9 @@ Wejdź do rekordu domeny kinazowej `IPR000719`.
 
 <img src="images/06-04-interpro1.png" alt="06-04-interpro1">
 
-5. Wymień bazy domen, na podstawie których tworzony jest ten rekord w bazie InterPro (`Contributing Member Database Entries`).
+5. Wymień bazy domen, na podstawie których tworzony jest ten rekord domeny kinazowej w bazie InterPro (`Contributing Member Database Entries`).
 6. Czy w obrębie domeny kinazowej można wyróżnić bardziej specyficzne domeny kinazowe? (`Domain relationships`)
-7. Podaj nazwę nadrodziny, w skład której wchodzi domena kinazowa.
+7. Podaj nazwę nadrodziny (*superfamily*), w skład której wchodzi domena kinazowa.
 <br/><br/>
 
 
