@@ -1,6 +1,8 @@
 ## Domeny białkowe
 
 ### Zad. 1 - Serwis Pfam (modele HMM)
+> Przeczytaj wprowadzenie do Ukrytych Modeli Markovwa (HMM): [An Introduction to Hidden Markov Models for Biological Sequences](http://www.combio.pl/files/Krogh98a.pdf) [strony: 1-12].
+
 > **Pfam** jest bazą przyrównań domen białkowych otrzymanych z sekwencji bazy UniProt. Każda domena jest przedstawiona za pomocą ukrytego modelu Markowa (HMM) utworzonego z przyrównania (*seed alignment*) konserwatywnych oraz reprezentatywnych sekwencji danej rodziny białkowej. W związku z tym, że sposób oceniania prawdopodobieństw w przypadku HMM jest bardziej złożony niż w przypdaku metod opartych na profilach, ich wykorzystanie zwiększa czułość dopasowywania sekwencji do bazy danych. Baza Pfam składa się z dwóch części, **Pfam-A** oraz **Pfam-B**. Pierwsza zawiera przyrównania wysokiej jakości (tj. zweryfikowane przez pracowników Pfam), natomiast druga przechowuje przyrównania wygenerowane automatycznie (obejmuje ona więcej modeli, lecz potencjalnie zawiera też więcej błędów, ponieważ niektóre modele HMM generowane są z niespokrewnionych sekwencji).
 
 > Obejrzyj wprowadzenie do bazy Pfam: [YouTube](https://youtu.be/unExXijjMmI) [8min].
